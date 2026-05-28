@@ -25,3 +25,10 @@ arxiv
 # Parses RSS and Atom feeds from URLs, handling XML quirks and format differences.
 # Docs: https://feedparser.readthedocs.io/
 feedparser
+
+# --- Google Gemini API client ---
+# Official Python SDK for Google's Gemini LLM family (gemini-2.0-flash, etc.).
+# Used in agent/curator.py to curate, summarize, and rank news articles.
+# NOTE: This is the new `google-genai` package (not the deprecated `google-generativeai`).
+# Docs: https://googleapis.github.io/python-genai/
+google-genai

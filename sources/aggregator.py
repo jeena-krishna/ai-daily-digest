@@ -13,36 +13,14 @@ each source module stays focused on one thing, and we can easily add or
 remove sources just by editing this file.
 """
 
-import logging  # Built-in module for structured log messages (better than raw print)
-
-# Relative imports — the leading dot (.) means "from the current package" (sources/).
-# This is the correct style when modules live inside a package and you run them with:
-#   python -m sources.aggregator
-# Absolute imports like `from sources.hackernews import ...` fail when Python can't
-# find the `sources` package on its path, which happens when you cd into sources/
-# or run the file directly. Relative imports always resolve correctly within a package.
+import logging  
 from .hackernews import get_ai_stories
 from .newsapi_source import get_ai_news
 from .arxiv_source import get_arxiv_papers
 from .rss_feeds import get_rss_articles
 
-# ---------------------------------------------------------------------------
-# Logging setup
-# ---------------------------------------------------------------------------
-
-# `logging.getLogger(__name__)` creates a logger named after this module
-# ("sources.aggregator"). This lets you filter or configure log output per-module.
-# Using logging instead of print() gives you control over log level and formatting.
 logger = logging.getLogger(__name__)
 
-
-# ---------------------------------------------------------------------------
-# Source registry
-# ---------------------------------------------------------------------------
-
-# A list of (label, function) tuples representing each news source.
-# This structure makes it trivial to add a new source: just append an entry here.
-# The label is used only for log messages.
 SOURCES = [
     ("Hacker News",  get_ai_stories),
     ("NewsAPI",      get_ai_news),
