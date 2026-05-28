@@ -1,0 +1,27 @@
+# requirements.txt
+#
+# This file lists all the external Python libraries this project depends on.
+# Anyone setting up the project installs them with:
+#
+#   pip install -r requirements.txt
+
+# --- HTTP requests ---
+# Used to call REST APIs (Hacker News, NewsAPI). Much friendlier than Python's urllib.
+# Docs: https://requests.readthedocs.io
+requests
+
+# --- Environment variable loading ---
+# Reads KEY=VALUE pairs from a .env file and exposes them as environment variables.
+# This keeps secrets (API keys, passwords) out of source code.
+# Docs: https://pypi.org/project/python-dotenv/
+python-dotenv
+
+# --- ArXiv API client ---
+# A Python wrapper around the ArXiv REST API for fetching academic papers.
+# Docs: https://lukasschwab.me/arxiv.py/index.html
+arxiv
+
+# --- RSS/Atom feed parser ---
+# Parses RSS and Atom feeds from URLs, handling XML quirks and format differences.
+# Docs: https://feedparser.readthedocs.io/
+feedparser
