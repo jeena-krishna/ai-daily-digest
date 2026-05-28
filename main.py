@@ -1,0 +1,115 @@
+import sys
+import os
+import time
+from datetime import datetime
+
+# Import components from our codebase
+from sources.aggregator import fetch_all_news
+from agent.curator import curate_digest
+from email_sender import send_digest_email
+
+def main():
+    print("=" * 60)
+    print(f"  AI Daily Digest Master Pipeline — Run at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 60)
+
+    # -------------------------------------------------------------------------
+    # STEP 1: Fetch News
+    # -------------------------------------------------------------------------
+    print("\n[Step 1/3] Fetching articles from all sources...")
+    start_fetch = time.time()
+    try:
+        articles = fetch_all_news()
+    except Exception as e:
+        print(f"[Main] ✗ Error: Fetching failed with exception: {e}")
+        sys.exit(1)
+        
+    duration_fetch = time.time() - start_fetch
+    print(f"[Main] ✓ Fetching completed in {duration_fetch:.2f}s.")
+    print(f"[Main] Found total of {len(articles)} raw articles.")
+
+    if not articles:
+        print("[Main] ✗ Error: No articles fetched. Exiting pipeline.")
+        sys.exit(1)
+
+    # -------------------------------------------------------------------------
+    # STEP 2: Curate with Gemini
+    # -------------------------------------------------------------------------
+    print("\n[Step 2/3] Curating digest using Google Gemini...")
+    start_curation = time.time()
+    try:
+        html_digest = curate_digest(articles)
+    except Exception as e:
+        print(f"[Main] ✗ Error: Curation failed: {e}")
+        sys.exit(1)
+
+    duration_curation = time.time() - start_curation
+    print(f"[Main] ✓ Curation completed in {duration_curation:.2f}s.")
+    print(f"[Main] Generated HTML digest: {len(html_digest):,} characters.")
+
+    # -------------------------------------------------------------------------
+    # SAVE COPY LOCALLY
+    # -------------------------------------------------------------------------
+    # Always save a local copy of the digest.
+    output_path = "digest_preview.html"
+    try:
+        # Wrap the clean HTML snippet returned by curator in a standard html shell for local viewing
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest Preview</title>
+  <style>
+    body {{ font-family: Georgia, serif; max-width: 680px; margin: 40px auto;
+            padding: 0 20px; color: #1a1a1a; line-height: 1.6; }}
+    h1   {{ font-size: 1.6rem; border-bottom: 2px solid #1a1a1a; padding-bottom: 8px; }}
+    h2   {{ font-size: 1.2rem; color: #333; margin-top: 2rem; }}
+    h3   {{ font-size: 1rem; margin-bottom: 4px; }}
+    a    {{ color: #0066cc; }}
+    hr   {{ border: none; border-top: 1px solid #ddd; margin: 1.5rem 0; }}
+    li   {{ margin-bottom: 0.5rem; }}
+  </style>
+</head>
+<body>
+{html_digest}
+</body>
+</html>""")
+        print(f"[Main] Saved local preview copy to: {output_path}")
+    except Exception as e:
+        print(f"[Main] WARNING: Failed to save local HTML preview file. Error: {e}")
+
+    # -------------------------------------------------------------------------
+    # STEP 3: Email Delivery
+    # -------------------------------------------------------------------------
+    print("\n[Step 3/3] Sending digest email...")
+    start_email = time.time()
+    
+    # We send the html_digest content as the body.
+    # Note: send_digest_email wraps this in its MIME block and sends it.
+    email_success = send_digest_email(html_digest)
+    duration_email = time.time() - start_email
+    
+    if email_success:
+        print(f"[Main] ✓ Email sent successfully in {duration_email:.2f}s.")
+    else:
+        print(f"[Main] ✗ Error: Email delivery failed (took {duration_email:.2f}s). Local copy is preserved at '{output_path}'.")
+        sys.exit(1)
+
+    # -------------------------------------------------------------------------
+    # Pipeline Summary
+    # -------------------------------------------------------------------------
+    total_duration = duration_fetch + duration_curation + duration_email
+    print("\n" + "=" * 60)
+    print("  PIPELINE RUN SUMMARY")
+    print("=" * 60)
+    print(f"  - Fetching step:   {duration_fetch:.2f}s")
+    print(f"  - Curation step:   {duration_curation:.2f}s")
+    print(f"  - Email step:      {duration_email:.2f}s")
+    print(f"  - Total Duration:  {total_duration:.2f}s")
+    print(f"  - Status:          Success")
+    print("=" * 60)
+
+if __name__ == "__main__":
+    main()
