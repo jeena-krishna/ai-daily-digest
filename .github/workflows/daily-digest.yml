@@ -1,0 +1,52 @@
+# GitHub Actions Workflow for AI Daily Digest
+# This workflow runs the AI newsletter curator daily at 11:00 UTC (7:00 AM EST)
+# and sends the generated digest to the configured recipient.
+
+name: Daily AI Digest
+
+on:
+  schedule:
+    # Run every day at 11:00 UTC (7:00 AM EST)
+    # Format: minute hour day-of-month month day-of-week
+    - cron: '0 11 * * *'
+  
+  # Allow manual execution of the workflow from the GitHub Actions UI
+  workflow_dispatch:
+
+# Ensure we have permissions to read content of the repository
+permissions:
+  contents: read
+
+jobs:
+  run-digest:
+    name: Fetch, Curate, and Email Digest
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the codebase so the runner has access to main.py, agent/, sources/, etc.
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python runtime version 3.11
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          # Cache pip dependencies to speed up subsequent workflow runs
+          cache: 'pip'
+
+      # Step 3: Install all project dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # Step 4: Run the pipeline entrypoint with required secrets mapped as env variables
+      - name: Run Master Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_RECIPIENT: ${{ secrets.DIGEST_RECIPIENT }}
+        run: python main.py

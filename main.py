@@ -2,6 +2,7 @@ import sys
 import os
 import time
 from datetime import datetime
+from dotenv import load_dotenv
 
 # Import components from our codebase
 from sources.aggregator import fetch_all_news
@@ -9,6 +10,9 @@ from agent.curator import curate_digest
 from email_sender import send_digest_email
 
 def main():
+    # Load environment variables from .env if present
+    load_dotenv()
+
     print("=" * 60)
     print(f"  AI Daily Digest Master Pipeline — Run at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
@@ -86,9 +90,16 @@ def main():
     print("\n[Step 3/3] Sending digest email...")
     start_email = time.time()
     
+    # Check if a custom recipient is specified in the environment
+    recipient = os.getenv("DIGEST_RECIPIENT")
+    if recipient:
+        print(f"[Main] Using DIGEST_RECIPIENT environment variable: {recipient}")
+    else:
+        print("[Main] DIGEST_RECIPIENT environment variable not found. Defaulting to sender's address.")
+
     # We send the html_digest content as the body.
     # Note: send_digest_email wraps this in its MIME block and sends it.
-    email_success = send_digest_email(html_digest)
+    email_success = send_digest_email(html_digest, recipient_email=recipient)
     duration_email = time.time() - start_email
     
     if email_success:
