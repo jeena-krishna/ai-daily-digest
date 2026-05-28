@@ -26,6 +26,7 @@ Why two calls instead of one?
 import os
 import re           # Built-in: regex used for light HTML cleanup
 import json         # Built-in: parse Call 1's JSON response reliably
+import ast          # Built-in: fallback parser if json.loads() fails on near-valid JSON
 import textwrap     # Built-in: dedent() strips indentation from triple-quoted strings
 
 from google import genai             # pip install google-genai
@@ -99,7 +100,7 @@ def _format_articles_for_prompt(articles: list[dict]) -> str:
 def _build_analysis_prompt(articles_text: str, article_count: int) -> str:
     """
     Builds the Call 1 prompt: asks Gemini to analyse all articles and return
-    a ranked JSON array of the top 10 indices. No HTML, no prose.
+    a ranked JSON array of the top 10 indices. No HTML, no prose, no metadata.
 
     Separating analysis from writing means:
       - This call can reason freely without worrying about output format
@@ -128,50 +129,46 @@ def _build_analysis_prompt(articles_text: str, article_count: int) -> str:
         Select the top 10 articles for a developer-focused AI digest.
 
         Apply this judgment in order:
-          1. FILTER false positives — articles that mention AI only tangentially
-             (e.g., a business article that says "leverages AI" once) should be removed.
-          2. DEDUPLICATE — if the same story appears from multiple sources, keep only
-             the best one (prefer the primary source: company blog > research paper
-             > trade press > generic news).
-          3. RANK by importance for developers building AI products today:
-             - Model releases / significant capability changes  (highest priority)
-             - Safety, alignment, or policy developments
-             - New tools, APIs, SDKs, or frameworks that ship now
-             - Research with clear near-term practical implications
-             - Industry news affecting AI development or deployment
-             - Interesting early-stage research                  (lowest priority)
-          4. IDENTIFY 2-4 trends: patterns across multiple stories, not single items.
-          5. PICK one "Story of the Day" from your top 10.
+        1. FILTER false positives — articles that mention AI only tangentially
+           (e.g., a business article that says "leverages AI" once) should be removed.
+        2. DEDUPLICATE — if the same story appears from multiple sources, keep only
+           the best one (prefer the primary source: company blog > research paper
+           > trade press > generic news).
+        3. RANK by importance for developers building AI products today:
+           - Model releases / significant capability changes  (highest priority)
+           - Safety, alignment, or policy developments
+           - New tools, APIs, SDKs, or frameworks that ship now
+           - Research with clear near-term practical implications
+           - Industry news affecting AI development or deployment
+           - Interesting early-stage research                  (lowest priority)
+        4. PICK one "Story of the Day" from your top 10.
 
         OUTPUT FORMAT — respond with ONLY valid JSON. No markdown backticks, no
         explanation, no preamble. Start your response with [ and end with ].
 
-        The JSON must be an array of exactly 10 objects, ordered best-first:
+        The JSON must be an array of exactly 10 objects, ordered best-first
+        (index 0 = most important = Story of the Day):
+
         [
-          {{
-            "index": <integer, 1-based article number from the list above>,
-            "score": <integer 1-10, importance for AI developers>,
-            "is_story_of_day": <true for exactly one item, false for all others>,
-            "reason": "<one sentence: why this story matters for developers>",
-            "trend_note": "<optional: which trend this article contributes to, or null>"
-          }},
-          ...
+          {{"index": 1, "score": 9}},
+          {{"index": 5, "score": 8}}
         ]
 
-        Also append ONE more object at the end of the array describing trends:
-        {{
-          "trends": [
-            {{"label": "<short trend name>", "summary": "<1-2 sentences>"}},
-            ...
-          ]
-        }}
-
-        Total array length: 11 objects (10 articles + 1 trends object).
+        CRITICAL FORMATTING RULES — violating any of these will break the parser:
+          - Return ONLY a JSON array. No text before or after.
+          - No markdown backticks. No ```json. Just raw JSON starting with [.
+          - Use double quotes for ALL keys and string values.
+          - No trailing commas after the last item in any array or object.
+          - The array must have EXACTLY 10 objects. No more, no less.
+          - Each object must have EXACTLY these 2 keys: "index", "score".
+          - "index" is the 1-based article number from the list above (integer).
+          - "score" is 1-10 importance rating (integer).
+          - First object in the array is the Story of the Day.
         Respond with ONLY the JSON array. Nothing else.
     """).strip()
 
 
-def _build_writing_prompt(selected_articles_text: str, trends: list[dict], story_of_day_index: int) -> str:
+def _build_writing_prompt(selected_articles_text: str, trends: list[dict] = None, story_of_day_index: int = 0) -> str:
     """
     Builds the Call 2 prompt: asks Gemini to write the HTML newsletter from
     only the pre-selected top 10 articles. No analysis, no JSON — pure HTML.
@@ -182,23 +179,13 @@ def _build_writing_prompt(selected_articles_text: str, trends: list[dict], story
 
     Args:
         selected_articles_text: Formatted text of only the top 10 articles.
-        trends:                  List of trend dicts from Call 1's JSON response.
+        trends:                  Unused now (trends are identified in Call 2 directly).
         story_of_day_index:      0-based position in selected_articles_text that
-                                 is the Story of the Day.
+                                 is the Story of the Day (usually 0, meaning first).
 
     Returns:
         The writing prompt string.
     """
-    # Format the trends block to embed in the prompt
-    # Each trend becomes a bullet point so Gemini can see what to include
-    if trends:
-        trends_text = "\n".join(
-            f'  - {t.get("label", "Trend")}: {t.get("summary", "")}'
-            for t in trends
-        )
-    else:
-        trends_text = "  (identify 2-3 trends yourself from the articles above)"
-
     return textwrap.dedent(f"""
         You are writing the HTML body of a daily AI newsletter for developers and
         ML researchers. The editorial selection has already been done for you.
@@ -211,8 +198,10 @@ def _build_writing_prompt(selected_articles_text: str, trends: list[dict], story
         {selected_articles_text}
         ---
 
-        TRENDS TO INCLUDE:
-        {trends_text}
+        YOUR TASKS:
+        1. Write a compelling, custom headline for each article (do not just copy the source headline if it is vague).
+        2. Write a 2-3 sentence summary/explanation for each article answering: "So what can a developer/ML researcher do with this today?"
+        3. Identify 2-4 major trends or patterns across these 10 articles and list them.
 
         OUTPUT FORMAT:
         Respond with ONLY HTML. No preamble, no explanation, no markdown.
@@ -322,63 +311,114 @@ def _call_gemini(prompt: str, temperature: float = 0.4, max_tokens: int = 4096) 
 
 def _parse_analysis_json(raw_json: str) -> tuple[list[dict], list[dict]]:
     """
-    Parses Call 1's JSON response into (ranked_articles, trends).
+    Parses Call 1's JSON response into (ranked_items, trends).
 
-    Gemini is told to output raw JSON, but may occasionally add whitespace or
-    a brief preamble. We try a few recovery strategies before giving up.
+    Uses a multi-layer recovery strategy so transient Gemini formatting
+    quirks don't kill the pipeline:
+      1. Strip markdown fences (``` ... ```).
+      2. Extract the substring from the first '[' to the last ']' — this
+         discards any preamble or postamble text around the array.
+      3. Remove trailing commas before } or ] (LLM-specific JSON bug).
+      4. Try json.loads() — the strict, fast path.
+      5. If that fails, try ast.literal_eval() — handles single-quoted strings
+         and some other near-valid Python dict syntax.
+      6. If both fail, raise so the caller can activate the score-based fallback.
+
+    The new schema from _build_analysis_prompt() is a flat 10-element array:
+      [{"index": N, "score": N, "headline": "...", "reason": "...", "trend": "..."}]
+    Story of the Day is always position 0 (best-first ordering).
+    No separate trends object is appended.
 
     Args:
         raw_json: The raw string returned by Call 1.
 
     Returns:
         A tuple of:
-          - ranked_items: list of dicts with keys index, score, is_story_of_day, reason
-          - trends:       list of dicts with keys label, summary
+          - ranked_items: list of 10 dicts with keys index, score, headline, reason, trend
+          - trends:       list of trend dicts derived from the "trend" field of each item
+                          (deduplicated, formatted for the writing prompt)
 
     Raises:
-        ValueError: If JSON cannot be parsed after all recovery attempts.
+        ValueError: If parsing fails after all recovery attempts.
     """
     text = raw_json.strip()
 
-    # Recovery: strip markdown fences the model may have added despite instructions
-    # e.g., ```json\n[...]\n```
+    # --- Debug: show raw Call 1 output so we can see what Gemini actually sent ---
+    # Print the first 500 chars — enough to see the structure without flooding the log.
+    preview = text[:500] + ("..." if len(text) > 500 else "")
+    print(f"[Curator] Call 1 raw response (first 500 chars):\n{'-' * 40}\n{preview}\n{'-' * 40}")
+
+    # --- Cleanup step 1: strip markdown code fences ---
+    # Gemini sometimes wraps JSON in ```json ... ``` despite being told not to.
+    # re.sub with re.IGNORECASE handles ```JSON, ```Json, etc.
     text = re.sub(r"^```[a-z]*\n?", "", text, flags=re.IGNORECASE).strip()
     text = re.sub(r"\n?```$", "", text).strip()
 
-    # Recovery: if there's any text before the opening '[', trim it.
-    # e.g., "Here is the JSON:\n[{...}]"
-    bracket_start = text.find("[")
-    if bracket_start > 0:
-        print(f"[Curator] Trimming {bracket_start} chars of preamble before JSON array.")
-        text = text[bracket_start:]
+    # --- Cleanup step 2: extract substring from first '[' to last ']' ---
+    # This removes any preamble ("Here is the JSON:") or postamble ("Let me know...").
+    # Using rfind (right-find) for ']' ensures we grab the outermost closing bracket,
+    # not an inner one from a nested structure.
+    first_bracket = text.find("[")
+    last_bracket = text.rfind("]")
 
-    # Recovery: remove trailing commas before ] or } — the most common JSON
-    # formatting mistake LLMs make (valid in JavaScript but not in JSON).
-    # e.g., ["a", "b",] → ["a", "b"]  and  {"k": 1,} → {"k": 1}
-    # The regex `r',\s*([}\]])'` matches a comma followed by optional whitespace
-    # then a closing brace or bracket, and replaces it with just the bracket.
+    if first_bracket != -1 and (last_bracket == -1 or last_bracket < first_bracket):
+        text = text + "]"
+        last_bracket = text.rfind("]")
+        print("[Curator] Appended missing closing bracket to truncated JSON")
+
+    if first_bracket == -1 or last_bracket == -1 or last_bracket <= first_bracket:
+        raise ValueError("No JSON array brackets found in Call 1 response.")
+
+    if first_bracket > 0:
+        print(f"[Curator] Trimming {first_bracket} chars of preamble before '['.")
+
+    text = text[first_bracket : last_bracket + 1]  # slice is exclusive on the right
+
+    # --- Cleanup step 3: remove trailing commas before ] or } ---
+    # Standard JSON forbids trailing commas; LLMs emit them constantly.
+    # Run it twice to handle nested cases like [{"a": 1,},] in one pass.
+    text = re.sub(r",\s*([}\]])", r"\1", text)
     text = re.sub(r",\s*([}\]])", r"\1", text)
 
-    # json.loads() raises json.JSONDecodeError if the string is not valid JSON.
-    # We let the exception propagate — the caller (curate_digest) will catch it
-    # and fall back to sending all articles to Call 2.
-    data = json.loads(text)
+    # --- Parse attempt 1: json.loads() ---
+    # The strict, canonical JSON parser. Fastest path.
+    data = None
+    parse_error = None
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError as e:
+        parse_error = e
+        print(f"[Curator] json.loads() failed: {e}")
+
+    # --- Parse attempt 2: ast.literal_eval() ---
+    # ast.literal_eval() is Python's safe expression evaluator. It accepts
+    # Python dict/list syntax, which is close to JSON but allows:
+    #   - Single-quoted strings ('value' instead of "value")
+    #   - True/False/None (Python booleans) instead of true/false/null
+    # It CANNOT execute arbitrary code — it only handles literals.
+    if data is None:
+        try:
+            print("[Curator] Trying ast.literal_eval() as fallback...")
+            data = ast.literal_eval(text)
+        except (ValueError, SyntaxError) as e:
+            # Both parsers failed — raise with the original json error for clarity
+            raise ValueError(
+                f"Could not parse Call 1 response as JSON or Python literal. "
+                f"json error: {parse_error} | ast error: {e}"
+            )
 
     if not isinstance(data, list):
         raise ValueError(f"Expected a JSON array, got {type(data).__name__}")
 
-    # Separate the trends object (has a "trends" key) from article objects
-    trends: list[dict] = []
-    ranked_items: list[dict] = []
+    # Filter to only objects that have the required 'index' key
+    # (guards against the model sneaking in extra commentary objects)
+    ranked_items = [item for item in data if isinstance(item, dict) and "index" in item]
 
-    for item in data:
-        if "trends" in item:
-            # This is the trends summary object appended at the end
-            trends = item["trends"]
-        elif "index" in item:
-            ranked_items.append(item)
+    if not ranked_items:
+        raise ValueError("No valid article objects found in Call 1 JSON response.")
 
-    return ranked_items, trends
+    # We no longer derive trends here, as trends are identified in Call 2 directly.
+    return ranked_items, []
 
 
 def _select_top_articles(
@@ -401,7 +441,9 @@ def _select_top_articles(
           - story_of_day_pos: 0-based position of the Story of the Day in `selected`
     """
     selected = []
-    story_of_day_pos = 0  # default to the first article if none is marked
+    # Story of the Day is position 0 in the ranked list (best-first ordering).
+    # Gemini is instructed to put the most important story first, so we use index 0.
+    story_of_day_pos = 0
 
     for i, item in enumerate(ranked_items):
         # Convert from 1-based (prompt) to 0-based (Python list)
@@ -411,12 +453,7 @@ def _select_top_articles(
         # beyond the article list length.
         if 0 <= idx < len(all_articles):
             article = all_articles[idx].copy()  # copy so we don't mutate the original
-            # Attach the reason from Call 1 — useful for debugging and future features
-            article["_curation_reason"] = item.get("reason", "")
             selected.append(article)
-
-            if item.get("is_story_of_day", False):
-                story_of_day_pos = len(selected) - 1
         else:
             print(f"[Curator] WARNING: Ignoring out-of-range index {idx + 1} from Call 1.")
 
@@ -502,7 +539,7 @@ def curate_digest(articles: list[dict]) -> str:
 
     # Use a low temperature for Call 1: we want consistent, deterministic ranking
     # decisions, not creative variation. 0.1 keeps the model focused.
-    raw_analysis = _call_gemini(analysis_prompt, temperature=0.1, max_tokens=2048)
+    raw_analysis = _call_gemini(analysis_prompt, temperature=0.1, max_tokens=8192)
     print(f"[Curator] Call 1 response: {len(raw_analysis):,} chars")
 
     # Parse the JSON response and select the actual article dicts
@@ -518,15 +555,12 @@ def curate_digest(articles: list[dict]) -> str:
 
         selected_articles, story_of_day_pos = _select_top_articles(pool, ranked_items)
         print(f"[Curator] ✓ Call 1 selected {len(selected_articles)} articles, "
-              f"{len(trends)} trends, Story of Day at position {story_of_day_pos + 1}.")
+              f"Story of Day at position {story_of_day_pos + 1}.")
 
-        # Log each selection so we can see the editorial reasoning
+        # Log each selection
         for i, art in enumerate(selected_articles):
             marker = " ⭐" if i == story_of_day_pos else ""
-            reason = art.get("_curation_reason", "")
             print(f"  {i+1:>2}.{marker} [{art['source']}] {art['title'][:60]}")
-            if reason:
-                print(f"      → {reason}")
 
     except (json.JSONDecodeError, ValueError, KeyError) as e:
         # Fallback: Call 1 failed to return parseable JSON. This can happen if
