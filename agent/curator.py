@@ -28,6 +28,7 @@ import re           # Built-in: regex used for light HTML cleanup
 import json         # Built-in: parse Call 1's JSON response reliably
 import ast          # Built-in: fallback parser if json.loads() fails on near-valid JSON
 import textwrap     # Built-in: dedent() strips indentation from triple-quoted strings
+import time         # Built-in: sleep for retrying API calls
 
 from google import genai             # pip install google-genai
 from google.genai import types       # GenerateContentConfig lives here
@@ -293,16 +294,29 @@ def _call_gemini(prompt: str, temperature: float = 0.4, max_tokens: int = 4096) 
 
     print(f"[Curator] → Gemini ({GEMINI_MODEL}): {len(prompt):,} chars, temp={temperature}")
 
-    response = client.models.generate_content(
-        model=GEMINI_MODEL,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            temperature=temperature,
-            max_output_tokens=max_tokens,
-        ),
-    )
-
-    return response.text
+    max_retries = 3
+    for attempt in range(max_retries + 1):  # 0 (initial call), 1, 2, 3 (retries)
+        try:
+            response = client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=temperature,
+                    max_output_tokens=max_tokens,
+                ),
+            )
+            return response.text
+        except Exception as e:
+            err_str = str(e)
+            is_transient = "503" in err_str or "429" in err_str or "UNAVAILABLE" in err_str or "RESOURCE_EXHAUSTED" in err_str
+            
+            # If we've exhausted all retries, or the error is not transient, raise it
+            if attempt == max_retries or not is_transient:
+                raise e
+            
+            code = "503" if ("503" in err_str or "UNAVAILABLE" in err_str) else "429"
+            print(f"[Curator] Gemini returned {code}, retrying in 30s... (attempt {attempt + 1}/{max_retries})")
+            time.sleep(30)
 
 
 # ---------------------------------------------------------------------------
