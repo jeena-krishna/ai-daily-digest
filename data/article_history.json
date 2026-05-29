@@ -148,5 +148,55 @@
     "title": "Strengthening societal resilience with Rosalind Biodefense",
     "date": "2026-05-29",
     "source": "OpenAI Blog"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort": {
+    "title": "Claude’s new model is more ‘honest’ when it messes up",
+    "date": "2026-05-29",
+    "source": "The Verge AI"
+  },
+  "https://huggingface.co/blog/torch-profiler": {
+    "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+    "date": "2026-05-29",
+    "source": "Hugging Face Blog"
+  },
+  "https://openai.com/index/cisco": {
+    "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+    "date": "2026-05-29",
+    "source": "OpenAI Blog"
+  },
+  "http://arxiv.org/abs/2605.30345v1": {
+    "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+    "date": "2026-05-29",
+    "source": "ArXiv"
+  },
+  "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign": {
+    "title": "Microsoft 365 Copilot gets a speed boost and cleaner design",
+    "date": "2026-05-29",
+    "source": "The Verge AI"
+  },
+  "https://openai.com/index/mufg": {
+    "title": "MUFG aims to become AI-native with OpenAI",
+    "date": "2026-05-29",
+    "source": "OpenAI Blog"
+  },
+  "http://arxiv.org/abs/2605.30350v1": {
+    "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+    "date": "2026-05-29",
+    "source": "ArXiv"
+  },
+  "https://www.tensorzero.com/blog/even-very-noisy-llm-evaluators-are-useful-for-improving-ai-agents/": {
+    "title": "Even (very) noisy LLM evaluators are useful for improving AI agents",
+    "date": "2026-05-29",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2605.30329v1": {
+    "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+    "date": "2026-05-29",
+    "source": "ArXiv"
+  },
+  "https://huggingface.co/blog/agent-glossary": {
+    "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+    "date": "2026-05-29",
+    "source": "Hugging Face Blog"
   }
 }
