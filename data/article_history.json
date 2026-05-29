@@ -1,0 +1,52 @@
+{
+  "https://www.anthropic.com/news/claude-opus-4-8": {
+    "title": "Claude Opus 4.8",
+    "date": "2026-05-28",
+    "source": "Hacker News"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/": {
+    "title": "100 things we announced at I/O 2026",
+    "date": "2026-05-28",
+    "source": "Google AI Blog"
+  },
+  "https://openai.com/index/openai-frontier-governance-framework": {
+    "title": "OpenAI’s Frontier Governance Framework",
+    "date": "2026-05-28",
+    "source": "OpenAI Blog"
+  },
+  "https://huggingface.co/blog/delta-weight-sync": {
+    "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+    "date": "2026-05-28",
+    "source": "Hugging Face Blog"
+  },
+  "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/": {
+    "title": "YouTube to automatically label AI-generated videos",
+    "date": "2026-05-28",
+    "source": "Hacker News"
+  },
+  "https://minimaxir.com/2026/05/openrouter-hy3/": {
+    "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+    "date": "2026-05-28",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/election-safeguards-2026": {
+    "title": "Election information and safeguards in 2026",
+    "date": "2026-05-28",
+    "source": "OpenAI Blog"
+  },
+  "https://shvbsle.in/various-llm-smells/": {
+    "title": "Various LLM Smells",
+    "date": "2026-05-28",
+    "source": "Hacker News"
+  },
+  "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code": {
+    "title": "Dynamic Workflows in Claude Code",
+    "date": "2026-05-28",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/ibm-research/itbench-aa": {
+    "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+    "date": "2026-05-28",
+    "source": "Hugging Face Blog"
+  }
+}

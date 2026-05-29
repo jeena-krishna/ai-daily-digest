@@ -32,3 +32,8 @@ feedparser
 # NOTE: This is the new `google-genai` package (not the deprecated `google-generativeai`).
 # Docs: https://googleapis.github.io/python-genai/
 google-genai
+
+# --- Vector Database ---
+# Local persistent database for storing article embeddings and conducting semantic search.
+chromadb
+

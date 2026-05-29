@@ -13,9 +13,9 @@ on:
   # Allow manual execution of the workflow from the GitHub Actions UI
   workflow_dispatch:
 
-# Ensure we have permissions to read content of the repository
+# Ensure we have permissions to read and write content (required to push history updates back to the repo)
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   run-digest:
@@ -50,3 +50,17 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DIGEST_RECIPIENT: ${{ secrets.DIGEST_RECIPIENT }}
         run: python main.py
+
+      # Step 5: Commit and push updated article history back to the repository
+      - name: Commit and Push History
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/article_history.json
+          # Check if there are changes in staging before committing to avoid empty commit failures
+          if git diff --staged --quiet; then
+            echo "No updates to article history."
+          else
+            git commit -m "Update article history [skip ci]"
+            git push
+          fi

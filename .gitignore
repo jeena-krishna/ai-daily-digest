@@ -38,3 +38,8 @@ build/
 .idea/
 *.suo
 *.sw?
+
+# --- Vector database and outputs ---
+digest_memory/
+digest_preview.html
+

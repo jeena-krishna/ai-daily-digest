@@ -499,7 +499,7 @@ def _clean_html_response(raw_html: str) -> str:
 # Public API
 # ---------------------------------------------------------------------------
 
-def curate_digest(articles: list[dict]) -> str:
+def curate_digest(articles: list[dict]) -> tuple[str, list[dict]]:
     """
     Main entry point: orchestrates the two-call curation pipeline.
 
@@ -592,7 +592,7 @@ def curate_digest(articles: list[dict]) -> str:
     html_digest = _clean_html_response(raw_html)
 
     print(f"\n[Curator] ✓ Digest ready. Final HTML: {len(html_digest):,} characters.")
-    return html_digest
+    return html_digest, selected_articles
 
 
 # ---------------------------------------------------------------------------
@@ -634,7 +634,7 @@ if __name__ == "__main__":
     # --- Step 2: Curate with Gemini ---
     print("\n[2/2] Running Gemini curation...")
     try:
-        html_digest = curate_digest(articles)
+        html_digest, selected_articles = curate_digest(articles)
     except ValueError as e:
         print(f"ERROR: {e}")
         sys.exit(1)

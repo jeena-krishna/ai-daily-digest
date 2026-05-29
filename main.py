@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 from sources.aggregator import fetch_all_news
 from agent.curator import curate_digest
 from email_sender import send_digest_email
+from memory.vectorstore import store_articles
+from memory.article_history import deduplicate_from_history, add_to_history, load_history
 
 def main():
     # Load environment variables from .env if present
@@ -32,9 +34,16 @@ def main():
     print(f"[Main] ✓ Fetching completed in {duration_fetch:.2f}s.")
     print(f"[Main] Found total of {len(articles)} raw articles.")
 
+    # Deduplicate articles using our JSON file memory (works on stateless GitHub Actions)
+    print("[Main] Deduplicating articles using JSON history file...")
+    original_count = len(articles)
+    articles = deduplicate_from_history(articles)
+    filtered_count = original_count - len(articles)
+    print(f"[Main] Filtered {filtered_count} duplicate articles. {len(articles)} unique articles remaining.")
+
     if not articles:
-        print("[Main] ✗ Error: No articles fetched. Exiting pipeline.")
-        sys.exit(1)
+        print("[Main] All articles filtered as duplicates. Exiting pipeline.")
+        sys.exit(0)
 
     # -------------------------------------------------------------------------
     # STEP 2: Curate with Gemini
@@ -42,7 +51,7 @@ def main():
     print("\n[Step 2/3] Curating digest using Google Gemini...")
     start_curation = time.time()
     try:
-        html_digest = curate_digest(articles)
+        html_digest, curated_articles = curate_digest(articles)
     except Exception as e:
         print(f"[Main] ✗ Error: Curation failed: {e}")
         sys.exit(1)
@@ -104,6 +113,25 @@ def main():
     
     if email_success:
         print(f"[Main] ✓ Email sent successfully in {duration_email:.2f}s.")
+        
+        today_str = datetime.now().strftime("%Y-%m-%d")
+        
+        # 1. Store in persistent JSON history (primary storage, version controlled)
+        try:
+            print(f"[Main] Recording today's {len(curated_articles)} curated articles in JSON history...")
+            history = load_history()
+            add_to_history(curated_articles, history)
+            print("[Main] ✓ Recorded in JSON history successfully.")
+        except Exception as e:
+            print(f"[Main] WARNING: Failed to record curated articles in JSON history: {e}")
+
+        # 2. Store in local vector store memory (for semantic search & RAG queries)
+        try:
+            print(f"[Main] Storing today's {len(curated_articles)} curated articles in vector store memory...")
+            store_articles(today_str, curated_articles)
+            print("[Main] ✓ Vector store memory updated successfully.")
+        except Exception as e:
+            print(f"[Main] WARNING: Failed to store curated articles in vector store: {e}")
     else:
         print(f"[Main] ✗ Error: Email delivery failed (took {duration_email:.2f}s). Local copy is preserved at '{output_path}'.")
         sys.exit(1)
