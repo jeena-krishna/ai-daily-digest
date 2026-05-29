@@ -42,9 +42,9 @@ load_dotenv()
 # Constants
 # ---------------------------------------------------------------------------
 
-# The Gemini model to use. gemini-2.0-flash is fast, cost-effective, and
-# handles large context windows — ideal for batch digest processing.
-GEMINI_MODEL = "gemini-2.5-flash"
+# The primary and fallback Gemini models to try in order of preference.
+# gemini-2.0-flash-lite has a separate, higher quota on the free tier.
+GEMINI_MODELS = ["gemini-2.5-flash", "gemini-2.0-flash-lite"]
 
 # Maximum number of articles to send to the LLM in one prompt.
 # Sending all 70+ raw articles risks exceeding the prompt size we want,
@@ -292,31 +292,41 @@ def _call_gemini(prompt: str, temperature: float = 0.4, max_tokens: int = 4096) 
     # it avoids keeping a persistent connection open between the two calls.
     client = genai.Client(api_key=api_key)
 
-    print(f"[Curator] → Gemini ({GEMINI_MODEL}): {len(prompt):,} chars, temp={temperature}")
+    for i, model_name in enumerate(GEMINI_MODELS):
+        print(f"[Curator] Trying model: {model_name}")
+        print(f"[Curator] → Gemini ({model_name}): {len(prompt):,} chars, temp={temperature}")
 
-    max_retries = 3
-    for attempt in range(max_retries + 1):  # 0 (initial call), 1, 2, 3 (retries)
-        try:
-            response = client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    temperature=temperature,
-                    max_output_tokens=max_tokens,
-                ),
-            )
-            return response.text
-        except Exception as e:
-            err_str = str(e)
-            is_transient = "503" in err_str or "429" in err_str or "UNAVAILABLE" in err_str or "RESOURCE_EXHAUSTED" in err_str
-            
-            # If we've exhausted all retries, or the error is not transient, raise it
-            if attempt == max_retries or not is_transient:
-                raise e
-            
-            code = "503" if ("503" in err_str or "UNAVAILABLE" in err_str) else "429"
-            print(f"[Curator] Gemini returned {code}, retrying in 30s... (attempt {attempt + 1}/{max_retries})")
-            time.sleep(30)
+        max_retries = 2
+        for attempt in range(max_retries + 1):  # 0 (initial call), 1, 2 (retries)
+            try:
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        temperature=temperature,
+                        max_output_tokens=max_tokens,
+                    ),
+                )
+                return response.text
+            except Exception as e:
+                err_str = str(e)
+                is_429 = "429" in err_str or "RESOURCE_EXHAUSTED" in err_str
+                is_503 = "503" in err_str or "UNAVAILABLE" in err_str
+                
+                if is_429:
+                    if i < len(GEMINI_MODELS) - 1:
+                        next_model = GEMINI_MODELS[i + 1]
+                        print(f"[Curator] Quota exhausted for {model_name}, falling back to {next_model}")
+                        break  # Break out of retry loop to move to the next model
+                    else:
+                        raise e
+                elif is_503:
+                    if attempt == max_retries:
+                        raise e
+                    print(f"[Curator] Gemini returned 503, retrying in 30s... (attempt {attempt + 1}/{max_retries})")
+                    time.sleep(30)
+                else:
+                    raise e
 
 
 # ---------------------------------------------------------------------------
