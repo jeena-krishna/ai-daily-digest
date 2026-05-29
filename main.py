@@ -46,15 +46,39 @@ def main():
         sys.exit(0)
 
     # -------------------------------------------------------------------------
-    # STEP 2: Curate with Gemini
+    # STEP 2: Curate with Gemini (with fallback to raw top 10 articles)
     # -------------------------------------------------------------------------
     print("\n[Step 2/3] Curating digest using Google Gemini...")
     start_curation = time.time()
     try:
         html_digest, curated_articles = curate_digest(articles)
     except Exception as e:
-        print(f"[Main] ✗ Error: Curation failed: {e}")
-        sys.exit(1)
+        print(f"[Main] ✗ Error: Gemini curation failed with exception: {e}")
+        print("[Main] Activating fallback curation system (sending raw top 10 articles)...")
+        
+        # Sort articles by score descending and take the top 10
+        curated_articles = sorted(articles, key=lambda a: a.get("score", 0), reverse=True)[:10]
+        
+        # Generate basic HTML fallback digest
+        today_str = datetime.now().strftime("%B %d, %Y")
+        html_digest = f"""<h1>AI Daily Digest — {today_str}</h1>
+<p style="color: #d9534f; font-weight: bold; font-style: italic;">Note: AI curation was unavailable today. Here are the top stories by community score.</p>
+<hr>
+<h2>Top Stories</h2>
+<ul>
+"""
+        for art in curated_articles:
+            title = art.get("title", "Untitled").strip()
+            url = art.get("url", "#").strip()
+            source = art.get("source", "Unknown").strip()
+            score = art.get("score", 0)
+            score_info = f" (Score: {score})" if score else ""
+            html_digest += f'  <li style="margin-bottom: 12px;">\n    <strong><a href="{url}">{title}</a></strong><br>\n    <span style="color: #555; font-size: 0.9rem;">Source: {source}{score_info}</span>\n  </li>\n'
+        
+        html_digest += """</ul>
+<hr>
+<p><em>Curated by AI Daily Digest · Fallback Curation System</em></p>
+"""
 
     duration_curation = time.time() - start_curation
     print(f"[Main] ✓ Curation completed in {duration_curation:.2f}s.")
