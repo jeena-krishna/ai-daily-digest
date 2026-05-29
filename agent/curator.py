@@ -29,6 +29,7 @@ import json         # Built-in: parse Call 1's JSON response reliably
 import ast          # Built-in: fallback parser if json.loads() fails on near-valid JSON
 import textwrap     # Built-in: dedent() strips indentation from triple-quoted strings
 import time         # Built-in: sleep for retrying API calls
+from datetime import date # Built-in: date functionality
 
 from google import genai             # pip install google-genai
 from google.genai import types       # GenerateContentConfig lives here
@@ -187,7 +188,10 @@ def _build_writing_prompt(selected_articles_text: str, trends: list[dict] = None
     Returns:
         The writing prompt string.
     """
+    today_str = date.today().strftime('%B %d, %Y')
     return textwrap.dedent(f"""
+        Today's date is {today_str}. Use this EXACT date in the heading — do not guess or use any other date.
+
         You are writing the HTML body of a daily AI newsletter for developers and
         ML researchers. The editorial selection has already been done for you.
         Your ONLY job is to write clean, engaging HTML — no analysis, no JSON.
@@ -211,7 +215,7 @@ def _build_writing_prompt(selected_articles_text: str, trends: list[dict] = None
 
         REQUIRED HTML STRUCTURE (follow exactly):
 
-        <h1>AI Daily Digest — [Today's Date, e.g. May 28, 2025]</h1>
+        <h1>AI Daily Digest — {today_str}</h1>
         <p><em>[One sentence: what kind of day was it in AI? Be specific, not generic.]</em></p>
 
         <h2>⭐ Story of the Day</h2>
@@ -322,7 +326,12 @@ def _call_gemini(prompt: str, temperature: float = 0.4, max_tokens: int = 4096) 
                         raise e
                 elif is_503:
                     if attempt == max_retries:
-                        raise e
+                        if i < len(GEMINI_MODELS) - 1:
+                            next_model = GEMINI_MODELS[i + 1]
+                            print(f"[Curator] Model {model_name} unavailable after {max_retries} retries, falling back to {next_model}")
+                            break  # Break retry loop to try next model
+                        else:
+                            raise e
                     print(f"[Curator] Gemini returned 503, retrying in 30s... (attempt {attempt + 1}/{max_retries})")
                     time.sleep(30)
                 else:
