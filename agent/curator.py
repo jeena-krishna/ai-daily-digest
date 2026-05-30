@@ -44,8 +44,8 @@ load_dotenv()
 # ---------------------------------------------------------------------------
 
 # The primary and fallback Gemini models to try in order of preference.
-# gemini-2.0-flash-lite has a separate, higher quota on the free tier.
-GEMINI_MODELS = ["gemini-2.5-flash", "gemini-2.0-flash-lite"]
+# gemini-2.5-flash-lite has a separate, higher quota on the free tier.
+GEMINI_MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite"]
 
 # Maximum number of articles to send to the LLM in one prompt.
 # Sending all 70+ raw articles risks exceeding the prompt size we want,

@@ -298,5 +298,155 @@
     "title": "AI deepfakes of dozens of Canadian women in violent and sexual images shared online",
     "date": "2026-05-30",
     "source": "CBC News"
+  },
+  "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/": {
+    "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+    "date": "2026-05-30",
+    "source": "TechCrunch AI"
+  },
+  "https://openai.com/index/braintrust": {
+    "title": "How Braintrust turns customer requests into code with Codex",
+    "date": "2026-05-30",
+    "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/endava": {
+    "title": "How Endava builds an agentic organization with Codex",
+    "date": "2026-05-30",
+    "source": "OpenAI Blog"
+  },
+  "https://www.zot.sh": {
+    "title": "Show HN: Zot – Yet another coding agent harness",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://github.com/vinhnx/VTCode": {
+    "title": "Show HN: VT Code – open-source terminal coding agent in Rust",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/": {
+    "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+    "date": "2026-05-30",
+    "source": "Google AI Blog"
+  },
+  "https://www.c-sharpcorner.com/article/the-emerging-role-of-ai-operations-aiops-2-0-in-modern-engineering-teams/": {
+    "title": "The Emerging Role of AI Operations (AIOps 2.0) in Modern Engineering Teams",
+    "date": "2026-05-30",
+    "source": "C-sharpcorner.com"
+  },
+  "http://arxiv.org/abs/2605.30330v1": {
+    "title": "When, why, and how do diffusion posterior samplers fail? A finite-sample lens",
+    "date": "2026-05-30",
+    "source": "ArXiv"
+  },
+  "https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern": {
+    "title": "Adobe’s conversational AI agent is a mediocre design intern",
+    "date": "2026-05-30",
+    "source": "The Verge AI"
+  },
+  "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a": {
+    "title": "Corporate America Is Starting to Ration AI as Cost Skyrockets",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning": {
+    "title": "Shift will clean homes for free to train future robots",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/": {
+    "title": "Robinhood now lets your AI agents trade stocks",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://overreacted.io/algebraic-effects-for-the-rest-of-us/": {
+    "title": "Algebraic Effects for the Rest of Us",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://research.roundtable.ai/captchas-detect-ai/": {
+    "title": "CAPTCHAs can still detect AI agents",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://www.deadcarl.com/p/the-kaiser-and-a-mediocre-man-theory": {
+    "title": "The Kaiser and a \"Mediocre Man\" Theory of History",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://helios.southlondonscientific.com/": {
+    "title": "Show HN: Helios – what plug-in solar could generate for any address in Britain",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://grahamhelton.com/blog/ssh-cheatsheet": {
+    "title": "An Excruciatingly Detailed Guide to SSH",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://stewartraceway.org/": {
+    "title": "Ho-scale slot car racing in the Santa Cruz Mountains",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://www.computerweekly.com/feature/The-digital-leaders-playbook-A-guide-for-IT-chiefs-by-Paul-Coby": {
+    "title": "The digital leader’s playbook: A guide for IT chiefs by Paul Coby",
+    "date": "2026-05-30",
+    "source": "ComputerWeekly.com"
+  },
+  "https://www.thehindubusinessline.com/brandhub/pr-release/simplilearn-launches-the-simplilearn-leadership-council-builds-the-latest-ai-first-learning-programs-with-the-top-1-of-global-experts/article71036218.ece": {
+    "title": "Simplilearn launches The Simplilearn Leadership Council, builds the latest AI-first learning programs with the Top 1% of Global Experts",
+    "date": "2026-05-30",
+    "source": "BusinessLine"
+  },
+  "https://openai.com/index/boston-childrens-hospital": {
+    "title": "Boston Children’s uses AI to unlock new diagnoses",
+    "date": "2026-05-30",
+    "source": "OpenAI Blog"
+  },
+  "https://www.geeky-gadgets.com/google-deepmind-agi-reality/": {
+    "title": "Why Google DeepMind’s CEO Says True AGI is Still Decades Away",
+    "date": "2026-05-30",
+    "source": "Geeky Gadgets"
+  },
+  "https://huggingface.co/blog/local-reachy-mini-conversation": {
+    "title": "Reachy Mini goes fully local",
+    "date": "2026-05-30",
+    "source": "Hugging Face Blog"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/": {
+    "title": "Check out real-life AI prototypes from the Futures Lab.",
+    "date": "2026-05-30",
+    "source": "Google AI Blog"
+  },
+  "https://bitcoinfoundation.org/news/ai-news/how-ai-agents-trade-crypto-autonomous-trading-bots-explained/": {
+    "title": "How AI Agents Trade Crypto: Autonomous Trading Bots Explained",
+    "date": "2026-05-30",
+    "source": "Bitcoinfoundation.org"
+  },
+  "http://arxiv.org/abs/2605.30344v1": {
+    "title": "Tiny but Trusted: Efficient Vision-Language Reasoning for Time-Series Anomaly Detection",
+    "date": "2026-05-30",
+    "source": "ArXiv"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping": {
+    "title": "AI grifters are creating fake Black people to sell Shein junk",
+    "date": "2026-05-30",
+    "source": "The Verge AI"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data": {
+    "title": "Tech companies desperately want to film you doing chores",
+    "date": "2026-05-30",
+    "source": "The Verge AI"
+  },
+  "http://arxiv.org/abs/2605.30336v1": {
+    "title": "Fairness-Aware Federated Learning with Trajectory Shapley Value",
+    "date": "2026-05-30",
+    "source": "ArXiv"
+  },
+  "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/": {
+    "title": "What happens when companies become too AI-pilled?",
+    "date": "2026-05-30",
+    "source": "TechCrunch AI"
   }
 }
