@@ -248,5 +248,55 @@
     "title": "Expertise in the Age of AI",
     "date": "2026-05-29",
     "source": "Hacker News"
+  },
+  "https://www.liquid.ai/blog/lfm2-5-8b-a1b": {
+    "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://github.com/jmaczan/tiny-vllm": {
+    "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://koenvangilst.nl/lab/mistral-ai-now-summit": {
+    "title": "Notes from the Mistral AI Now Summit",
+    "date": "2026-05-30",
+    "source": "Hacker News"
+  },
+  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/": {
+    "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+    "date": "2026-05-30",
+    "source": "Google AI Blog"
+  },
+  "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/": {
+    "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+    "date": "2026-05-30",
+    "source": "TechCrunch AI"
+  },
+  "https://www.c-sharpcorner.com/article/why-prompt-engineering-is-dying-and-context-engineering-is-taking-over/": {
+    "title": "Why Prompt Engineering Is Dying, and Context Engineering Is Taking Over",
+    "date": "2026-05-30",
+    "source": "C-sharpcorner.com"
+  },
+  "https://www.c-sharpcorner.com/article/mcp-vs-apis-will-model-context-protocol-replace-traditional-integrations/": {
+    "title": "MCP vs APIs: Will Model Context Protocol Replace Traditional Integrations?",
+    "date": "2026-05-30",
+    "source": "C-sharpcorner.com"
+  },
+  "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/": {
+    "title": "Coders are refusing to work without AI — and that could come back to bite them",
+    "date": "2026-05-30",
+    "source": "TechCrunch AI"
+  },
+  "https://openai.com/index/trustworthy-third-party-evaluations-foundations": {
+    "title": "A shared playbook for trustworthy third party evaluations",
+    "date": "2026-05-30",
+    "source": "OpenAI Blog"
+  },
+  "https://www.cbc.ca/news/canada/nova-scotia/ai-deepfakes-charges-9.7215992": {
+    "title": "AI deepfakes of dozens of Canadian women in violent and sexual images shared online",
+    "date": "2026-05-30",
+    "source": "CBC News"
   }
 }
