@@ -448,5 +448,55 @@
     "title": "What happens when companies become too AI-pilled?",
     "date": "2026-05-30",
     "source": "TechCrunch AI"
+  },
+  "https://economictimes.indiatimes.com/news/international/us/who-truly-leads-the-ai-industry-now-anthropics-965-billion-valuation-and-claude-opus-4-8-launch-reignite-the-battle-for-ai-supremacy-beyond-openais-early-lead/articleshow/131391633.cms": {
+    "title": "Who truly leads the AI industry now? Anthropic’s $965 billion valuation and Claude Opus 4.8 launch reignite the battle for AI supremacy beyond OpenAI’s early lead",
+    "date": "2026-05-30",
+    "source": "The Times of India"
+  },
+  "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/": {
+    "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+    "date": "2026-05-30",
+    "source": "TechCrunch AI"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/": {
+    "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+    "date": "2026-05-30",
+    "source": "Google AI Blog"
+  },
+  "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/": {
+    "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+    "date": "2026-05-30",
+    "source": "TechCrunch AI"
+  },
+  "http://arxiv.org/abs/2605.30327v1": {
+    "title": "Reasoning with Sampling: Cutting at Decision Points",
+    "date": "2026-05-30",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2605.30326v1": {
+    "title": "RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
+    "date": "2026-05-30",
+    "source": "ArXiv"
+  },
+  "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014323": {
+    "title": "A prototype-augmented graph representation learning framework for identifying brain disorder-associated genes and facilitating drug repurposing",
+    "date": "2026-05-30",
+    "source": "Plos.org"
+  },
+  "https://www.prnewswire.com/news-releases/new-ai-ethics-index-launches-to-help-schools-evaluate-the-real-world-impact-of-artificial-intelligence-302785317.html": {
+    "title": "New AI Ethics Index Launches to Help Schools Evaluate the Real-World Impact of Artificial Intelligence",
+    "date": "2026-05-30",
+    "source": "PRNewswire"
+  },
+  "https://www.theatlantic.com/podcasts/2026/05/why-everyone-hates-ai-data-centers/687355/": {
+    "title": "Why Everyone Hates AI Data Centers",
+    "date": "2026-05-30",
+    "source": "The Atlantic"
+  },
+  "http://arxiv.org/abs/2605.30319v1": {
+    "title": "Improved Guarantees for Heterogeneous Treatment-Effect Estimation via Matrix Completion",
+    "date": "2026-05-30",
+    "source": "ArXiv"
   }
 }
