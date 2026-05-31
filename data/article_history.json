@@ -548,5 +548,55 @@
     "title": "How one founder’s bet on ‘the old school web’ is paying off",
     "date": "2026-05-30",
     "source": "The Verge AI"
+  },
+  "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html": {
+    "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+    "date": "2026-05-31",
+    "source": "Internet"
+  },
+  "https://openenvelope.org/docs/schema/": {
+    "title": "Show HN: Open Envelope – an open schema for defining AI agent teams",
+    "date": "2026-05-31",
+    "source": "Hacker News"
+  },
+  "https://github.com/kurikomi-labs/komi-learn": {
+    "title": "Show HN: Komi-learn – continuous memory and self-improvement for coding agents",
+    "date": "2026-05-31",
+    "source": "Hacker News"
+  },
+  "https://arxiv.org/abs/2510.12635": {
+    "title": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks",
+    "date": "2026-05-31",
+    "source": "Hacker News"
+  },
+  "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/": {
+    "title": "To Gen or Not To Gen: The Ethical Use of Generative AI - My Not So Private Tech Life",
+    "date": "2026-05-31",
+    "source": "Johanneslink.net"
+  },
+  "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/": {
+    "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+    "date": "2026-05-31",
+    "source": "TechCrunch AI"
+  },
+  "https://www.prnewswire.com/news-releases/firebird-to-join-armenias-national-level-education-efforts-to-support-ai-native-learning-at-scale-launches-firebird-labs-302785971.html": {
+    "title": "Firebird to Join Armenia's National-Level Education Efforts to Support AI-Native Learning at Scale, Launches Firebird Labs",
+    "date": "2026-05-31",
+    "source": "PRNewswire"
+  },
+  "https://www.techradar.com/pro/the-very-rapid-development-of-ai-ml-will-also-have-a-profound-impact-on-the-6g-design-ai-will-be-responsible-for-both-creating-more-network-traffic-and-strengthening-network-performance": {
+    "title": "‘The very rapid development of AI/ML will also have a profound impact on the 6G design’: AI will be responsible for both creating more network traffic and strengthening network performance",
+    "date": "2026-05-31",
+    "source": "TechRadar"
+  },
+  "https://jackmaguire.org/blog/ai-job-grief/": {
+    "title": "AI job grief: A psychological crisis hitting tech workers",
+    "date": "2026-05-31",
+    "source": "Hacker News"
+  },
+  "https://www.oeaw.ac.at/en/news/austrian-academy-of-sciences-is-developing-the-ancient-greek-ai-apollo-with-mistral-ai-and-reply": {
+    "title": "1M Ancient Greek fragments soon to be translated with the help of AI",
+    "date": "2026-05-31",
+    "source": "Hacker News"
   }
 }
