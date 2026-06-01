@@ -598,5 +598,55 @@
     "title": "1M Ancient Greek fragments soon to be translated with the help of AI",
     "date": "2026-05-31",
     "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai": {
+    "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+    "date": "2026-06-01",
+    "source": "Hugging Face Blog"
+  },
+  "https://huggingface.co/blog/JetBrains/mellum2-launch": {
+    "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+    "date": "2026-06-01",
+    "source": "Hugging Face Blog"
+  },
+  "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration": {
+    "title": "ChatGPT for Google Sheets exfiltrates workbooks",
+    "date": "2026-06-01",
+    "source": "Hacker News"
+  },
+  "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect": {
+    "title": "Microsoft to unveil new AI models and Windows improvements at Build",
+    "date": "2026-06-01",
+    "source": "The Verge AI"
+  },
+  "http://arxiv.org/abs/2605.31584v1": {
+    "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+    "date": "2026-06-01",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2605.31558v1": {
+    "title": "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
+    "date": "2026-06-01",
+    "source": "ArXiv"
+  },
+  "https://www.theverge.com/gadgets/940854/strava-restricts-api-access-ai-apps": {
+    "title": "Strava blames zero-code AI apps and scrapers as it tightens API access",
+    "date": "2026-06-01",
+    "source": "The Verge AI"
+  },
+  "http://arxiv.org/abs/2605.31593v1": {
+    "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
+    "date": "2026-06-01",
+    "source": "ArXiv"
+  },
+  "https://gptzero.me/investigations/ey": {
+    "title": "Ernst & Young published cybersecurity report full of hallucinations",
+    "date": "2026-06-01",
+    "source": "Gptzero.me"
+  },
+  "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption": {
+    "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+    "date": "2026-06-01",
+    "source": "Hugging Face Blog"
   }
 }
