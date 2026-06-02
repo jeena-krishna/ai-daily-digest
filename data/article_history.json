@@ -648,5 +648,55 @@
     "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
     "date": "2026-06-01",
     "source": "Hugging Face Blog"
+  },
+  "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/": {
+    "title": "OpenAI frontier models and Codex are now available on AWS",
+    "date": "2026-06-02",
+    "source": "Hacker News"
+  },
+  "https://www.anthropic.com/news/confidential-draft-s1-sec": {
+    "title": "Anthropic confidentially submits draft S-1 to the SEC",
+    "date": "2026-06-02",
+    "source": "Hacker News"
+  },
+  "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215": {
+    "title": "Florida sues OpenAI and Sam Altman over AI risks",
+    "date": "2026-06-02",
+    "source": "Hacker News"
+  },
+  "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx": {
+    "title": "Alphabet announces $80B equity capital raise to expand AI infra and compute",
+    "date": "2026-06-02",
+    "source": "Hacker News"
+  },
+  "https://pypi.org/project/deep-learning-toolkit/0.4.1/": {
+    "title": "deep-learning-toolkit 0.4.1",
+    "date": "2026-06-02",
+    "source": "Pypi.org"
+  },
+  "https://pyimagesearch.com/2026/06/01/apache-airflow-document-ingestion-pipeline-for-rag-systems/": {
+    "title": "Apache Airflow Document Ingestion Pipeline for RAG Systems",
+    "date": "2026-06-02",
+    "source": "Pyimagesearch.com"
+  },
+  "http://arxiv.org/abs/2606.02544v1": {
+    "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
+    "date": "2026-06-02",
+    "source": "ArXiv"
+  },
+  "https://www.ruxu.dev/articles/ai/build-an-ai-agent-with-tools/": {
+    "title": "Build a Basic AI Agent from Scratch: Tools",
+    "date": "2026-06-02",
+    "source": "Hacker News"
+  },
+  "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md": {
+    "title": "AI Agent Guidelines for CS336 at Stanford",
+    "date": "2026-06-02",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.02530v1": {
+    "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+    "date": "2026-06-02",
+    "source": "ArXiv"
   }
 }
