@@ -698,5 +698,55 @@
     "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
     "date": "2026-06-02",
     "source": "ArXiv"
+  },
+  "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements": {
+    "title": "Microsoft Build 2026: The 7 biggest announcements",
+    "date": "2026-06-03",
+    "source": "The Verge AI"
+  },
+  "https://microsoft.ai/news/introducingmai-code-1-flash/": {
+    "title": "MAI-Code-1-Flash",
+    "date": "2026-06-03",
+    "source": "Hacker News"
+  },
+  "https://microsoft.ai/news/introducing-mai-thinking-1/": {
+    "title": "MAI-Thinking-1",
+    "date": "2026-06-03",
+    "source": "Hacker News"
+  },
+  "https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device": {
+    "title": "U of T researchers demonstrate AI worm could target any online device",
+    "date": "2026-06-03",
+    "source": "Hacker News"
+  },
+  "https://github.com/getpaseo/paseo": {
+    "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
+    "date": "2026-06-03",
+    "source": "Hacker News"
+  },
+  "https://github.com/yaodub/cast": {
+    "title": "Show HN: Tired of duct-taping access control into agent prompts. Here's the fix",
+    "date": "2026-06-03",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/codex-for-every-role-tool-workflow": {
+    "title": "Codex for every role, tool, and workflow",
+    "date": "2026-06-03",
+    "source": "OpenAI Blog"
+  },
+  "https://huggingface.co/blog/Hcompany/holo31": {
+    "title": "Holo3.1: Fast & Local Computer Use Agents",
+    "date": "2026-06-03",
+    "source": "Hugging Face Blog"
+  },
+  "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/": {
+    "title": "AI outperforms law professors in Stanford Law study",
+    "date": "2026-06-03",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots": {
+    "title": "Direct Preference Optimization Beyond Chatbots",
+    "date": "2026-06-03",
+    "source": "Hugging Face Blog"
   }
 }
