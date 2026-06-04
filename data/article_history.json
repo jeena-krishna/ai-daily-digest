@@ -748,5 +748,55 @@
     "title": "Direct Preference Optimization Beyond Chatbots",
     "date": "2026-06-03",
     "source": "Hugging Face Blog"
+  },
+  "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind": {
+    "title": "Introducing new capabilities to GPT-Rosalind",
+    "date": "2026-06-04",
+    "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/wasmer": {
+    "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+    "date": "2026-06-04",
+    "source": "OpenAI Blog"
+  },
+  "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr": {
+    "title": "How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent",
+    "date": "2026-06-04",
+    "source": "Hugging Face Blog"
+  },
+  "https://openai.com/index/endava-frontiers": {
+    "title": "How Endava is redesigning software delivery around AI agents",
+    "date": "2026-06-04",
+    "source": "OpenAI Blog"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/": {
+    "title": "How we used Gemini to build Google I/O 2026",
+    "date": "2026-06-04",
+    "source": "Google AI Blog"
+  },
+  "https://openai.com/index/frontier-safety-blueprint": {
+    "title": "A blueprint for democratic governance of frontier AI",
+    "date": "2026-06-04",
+    "source": "OpenAI Blog"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress": {
+    "title": "AI leaders call for tougher protections against AI-aided bioweapons",
+    "date": "2026-06-04",
+    "source": "The Verge AI"
+  },
+  "https://www.databricks.com/blog/cross-industry-technology-and-functional-genie-partner-solutions": {
+    "title": "Scaling Enterprise Conversational Intelligence: Cross-industry Technology and Functional Solutions Powered by Databricks Genie",
+    "date": "2026-06-04",
+    "source": "Databricks.com"
+  },
+  "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data": {
+    "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+    "date": "2026-06-04",
+    "source": "Hugging Face Blog"
+  },
+  "https://devops.com/survey-surfaces-pervasive-adoption-of-ai-across-sdlc/": {
+    "title": "Survey Surfaces Pervasive Adoption of AI Across SDLC",
+    "date": "2026-06-04",
+    "source": "DevOps.com"
   }
 }
