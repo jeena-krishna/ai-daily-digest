@@ -798,5 +798,55 @@
     "title": "Survey Surfaces Pervasive Adoption of AI Across SDLC",
     "date": "2026-06-04",
     "source": "DevOps.com"
+  },
+  "https://openai.com/index/chatgpt-memory-dreaming": {
+    "title": "Dreaming: Better memory for a more helpful ChatGPT",
+    "date": "2026-06-05",
+    "source": "OpenAI Blog"
+  },
+  "https://github.com/anthropics/defending-code-reference-harness": {
+    "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+    "date": "2026-06-05",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety": {
+    "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+    "date": "2026-06-05",
+    "source": "Hugging Face Blog"
+  },
+  "https://www.anthropic.com/institute/recursive-self-improvement": {
+    "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+    "date": "2026-06-05",
+    "source": "Hacker News"
+  },
+  "https://github.com/huawei-csl/KVarN": {
+    "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+    "date": "2026-06-05",
+    "source": "Hacker News"
+  },
+  "https://github.com/zdk/lowfat": {
+    "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+    "date": "2026-06-05",
+    "source": "Hacker News"
+  },
+  "https://github.com/alibaba/open-code-review": {
+    "title": "Open Code Review – An AI-powered code review CLI tool",
+    "date": "2026-06-05",
+    "source": "Hacker News"
+  },
+  "https://www.c-sharpcorner.com/article/github-copilot-desktop-app-features-benefits-and-developer-use-cases/": {
+    "title": "GitHub Copilot Desktop App: Features, Benefits, and Developer Use Cases",
+    "date": "2026-06-05",
+    "source": "C-sharpcorner.com"
+  },
+  "https://huggingface.co/blog/hf-cli-for-agents": {
+    "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+    "date": "2026-06-05",
+    "source": "Hugging Face Blog"
+  },
+  "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/": {
+    "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+    "date": "2026-06-05",
+    "source": "Hacker News"
   }
 }
