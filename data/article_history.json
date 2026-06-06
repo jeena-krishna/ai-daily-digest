@@ -848,5 +848,55 @@
     "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
     "date": "2026-06-05",
     "source": "Hacker News"
+  },
+  "https://www.geeky-gadgets.com/nvidia-nemotron-3-ultra-model/": {
+    "title": "How NVIDIA’s NeMo Tron 3 Ultra Achieves 5X Faster AI Speeds",
+    "date": "2026-06-06",
+    "source": "Geeky Gadgets"
+  },
+  "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/": {
+    "title": "The token bill comes due: Inside the industry scramble to manage AI’s runaway costs",
+    "date": "2026-06-06",
+    "source": "TechCrunch AI"
+  },
+  "https://www.redbooks.ibm.com/docs/MD260021/MD260021.html": {
+    "title": "Context Without Limits: A High-Performance KV Cache Platform for Large-Scale AI Inference",
+    "date": "2026-06-06",
+    "source": "Ibm.com"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/": {
+    "title": "The latest AI news we announced in May 2026",
+    "date": "2026-06-06",
+    "source": "Google AI Blog"
+  },
+  "https://openai.com/index/biodefense-in-the-intelligence-age": {
+    "title": "Biodefense in the Intelligence Age",
+    "date": "2026-06-06",
+    "source": "OpenAI Blog"
+  },
+  "https://www.theverge.com/policy/944041/new-york-data-center-moratorium": {
+    "title": "New York lawmakers pass one-year ban on new data centers",
+    "date": "2026-06-06",
+    "source": "The Verge AI"
+  },
+  "https://arxiv.org/abs/2606.04032": {
+    "title": "Do transformers need three projections? Systematic study of QKV variants",
+    "date": "2026-06-06",
+    "source": "Hacker News"
+  },
+  "https://fremaconsulting.ch/blog/faiss": {
+    "title": "Inside FAISS: Billion-Scale Similarity Search",
+    "date": "2026-06-06",
+    "source": "Hacker News"
+  },
+  "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html": {
+    "title": "My Agent Skill for Test-Driven Development",
+    "date": "2026-06-06",
+    "source": "Hacker News"
+  },
+  "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast": {
+    "title": "This is your laptop… on AI",
+    "date": "2026-06-06",
+    "source": "The Verge AI"
   }
 }
