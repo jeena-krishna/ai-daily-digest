@@ -898,5 +898,55 @@
     "title": "This is your laptop… on AI",
     "date": "2026-06-06",
     "source": "The Verge AI"
+  },
+  "https://openai.com/index/harness-engineering/": {
+    "title": "Harness engineering: Leveraging Codex in an agent-first world",
+    "date": "2026-06-07",
+    "source": "Hacker News"
+  },
+  "https://www.0xkato.xyz/how-llms-actually-work/": {
+    "title": "How LLMs work",
+    "date": "2026-06-07",
+    "source": "Hacker News"
+  },
+  "https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html": {
+    "title": "Arithmetic Without Numbers – How LLMs Do Math",
+    "date": "2026-06-07",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.06473v1": {
+    "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+    "date": "2026-06-07",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.06470v1": {
+    "title": "PC Layer: Polynomial Weight Preconditioning for Improving LLM Pre-Training",
+    "date": "2026-06-07",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.06467v1": {
+    "title": "You Only Index Once: Cross-Layer Sparse Attention with Shared Routing",
+    "date": "2026-06-07",
+    "source": "ArXiv"
+  },
+  "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html": {
+    "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
+    "date": "2026-06-07",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.06492v1": {
+    "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+    "date": "2026-06-07",
+    "source": "ArXiv"
+  },
+  "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/": {
+    "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+    "date": "2026-06-07",
+    "source": "Hacker News"
+  },
+  "https://arxiv.org/abs/2601.14470": {
+    "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+    "date": "2026-06-07",
+    "source": "Hacker News"
   }
 }
