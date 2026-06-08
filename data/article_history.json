@@ -948,5 +948,55 @@
     "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
     "date": "2026-06-07",
     "source": "Hacker News"
+  },
+  "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision": {
+    "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+    "date": "2026-06-08",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/openenv-agentic-rl": {
+    "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+    "date": "2026-06-08",
+    "source": "Hugging Face Blog"
+  },
+  "http://arxiv.org/abs/2606.07462v1": {
+    "title": "Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle",
+    "date": "2026-06-08",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.07473v1": {
+    "title": "Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders",
+    "date": "2026-06-08",
+    "source": "ArXiv"
+  },
+  "https://github.com/ninoxAI/nightwatch": {
+    "title": "Show HN: Nightwatch, The open-source, read-only AI SRE",
+    "date": "2026-06-08",
+    "source": "Hacker News"
+  },
+  "https://pypi.org/project/loom-gpt/": {
+    "title": "loom-gpt added to PyPI",
+    "date": "2026-06-08",
+    "source": "Pypi.org"
+  },
+  "http://arxiv.org/abs/2606.07491v1": {
+    "title": "Twelve quick tips for designing AI-driven HPC workflows",
+    "date": "2026-06-08",
+    "source": "ArXiv"
+  },
+  "https://www.chai.org/news/coalition-for-health-ai-chai-updates-progress-and-plans-to-issue-guidelines-for-the-responsible-use-of-ai-in-healthcare": {
+    "title": "Coalition for Health AI (CHAI™) Updates Progress and Plans to Issue Guidelines for the Responsible Use of AI in Healthcare",
+    "date": "2026-06-08",
+    "source": "Chai.org"
+  },
+  "http://arxiv.org/abs/2606.07512v1": {
+    "title": "MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism",
+    "date": "2026-06-08",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.07500v1": {
+    "title": "Sparse Subspace-to-Expert Sharing for Task-Agnostic Continual Learning",
+    "date": "2026-06-08",
+    "source": "ArXiv"
   }
 }
