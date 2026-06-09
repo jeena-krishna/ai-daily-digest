@@ -998,5 +998,55 @@
     "title": "Sparse Subspace-to-Expert Sharing for Task-Agnostic Continual Learning",
     "date": "2026-06-08",
     "source": "ArXiv"
+  },
+  "https://www.apple.com/apple-intelligence/": {
+    "title": "Siri AI",
+    "date": "2026-06-09",
+    "source": "Hacker News"
+  },
+  "https://developer.apple.com/documentation/coreai/": {
+    "title": "Apple Core AI Framework",
+    "date": "2026-06-09",
+    "source": "Hacker News"
+  },
+  "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/": {
+    "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+    "date": "2026-06-09",
+    "source": "Hacker News"
+  },
+  "https://www.argusred.com/cli": {
+    "title": "Show HN: We post-trained a model that pen tests instead of refusing your code",
+    "date": "2026-06-09",
+    "source": "Hacker News"
+  },
+  "https://www.cc.dev/": {
+    "title": "Show HN: Command Center, the AI coding env for people who care about quality",
+    "date": "2026-06-09",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.09821v1": {
+    "title": "Rethinking the Divergence Regularization in LLM RL",
+    "date": "2026-06-09",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.09800v1": {
+    "title": "FASE: Fast Adaptive Semantic Entropy for Code Quality",
+    "date": "2026-06-09",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.09764v1": {
+    "title": "iOSWorld: A Benchmark for Personally Intelligent Phone Agents",
+    "date": "2026-06-09",
+    "source": "ArXiv"
+  },
+  "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation": {
+    "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
+    "date": "2026-06-09",
+    "source": "The Verge"
+  },
+  "https://martinalderson.com/posts/xais-new-rental-business/": {
+    "title": "xAI is looking more like a datacentre REIT than a frontier lab",
+    "date": "2026-06-09",
+    "source": "Hacker News"
   }
 }
