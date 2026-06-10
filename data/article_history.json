@@ -1048,5 +1048,55 @@
     "title": "xAI is looking more like a datacentre REIT than a frontier lab",
     "date": "2026-06-09",
     "source": "Hacker News"
+  },
+  "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
+    "title": "Claude Fable 5",
+    "date": "2026-06-10",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.11182v1": {
+    "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+    "date": "2026-06-10",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.11164v1": {
+    "title": "ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models",
+    "date": "2026-06-10",
+    "source": "ArXiv"
+  },
+  "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html": {
+    "title": "If Claude Fable stops helping you, you'll never know",
+    "date": "2026-06-10",
+    "source": "Hacker News"
+  },
+  "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/": {
+    "title": "German ruling declares Google liable for false answers in AI Overviews",
+    "date": "2026-06-10",
+    "source": "Hacker News"
+  },
+  "https://news.ycombinator.com/item?id=48473166": {
+    "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+    "date": "2026-06-10",
+    "source": "Hacker News"
+  },
+  "https://aarushgupta.io/posts/kan-fpga/": {
+    "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+    "date": "2026-06-10",
+    "source": "Hacker News"
+  },
+  "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/": {
+    "title": "Apple reveals new AI architecture built around Google Gemini models",
+    "date": "2026-06-10",
+    "source": "Hacker News"
+  },
+  "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/": {
+    "title": "Apple bets cheaper AI will woo small developers",
+    "date": "2026-06-10",
+    "source": "Hacker News"
+  },
+  "https://www.cmswire.com/contact-center/nice-makes-its-move-at-nice-world-2026-agentic-ai-is-now-the-architecture/": {
+    "title": "NiCE Makes Its Move at NiCE World 2026: Agentic AI Is Now the Architecture",
+    "date": "2026-06-10",
+    "source": "CMSWire"
   }
 }
