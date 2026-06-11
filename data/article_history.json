@@ -1098,5 +1098,55 @@
     "title": "NiCE Makes Its Move at NiCE World 2026: Agentic AI Is Now the Architecture",
     "date": "2026-06-10",
     "source": "CMSWire"
+  },
+  "https://www.geeky-gadgets.com/yann-lecun-jepa-replaces-llms/": {
+    "title": "Why Yann LeCun is Spending $1 Billion to Replace LLMs with JEPA",
+    "date": "2026-06-11",
+    "source": "Geeky Gadgets"
+  },
+  "https://burr.apache.org/": {
+    "title": "Apache Burr: Build reliable AI agents and applications",
+    "date": "2026-06-11",
+    "source": "Hacker News"
+  },
+  "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/": {
+    "title": "Anthropic Walks Back Policy That Could Have 'Sabotaged' Researchers Using Claude",
+    "date": "2026-06-11",
+    "source": "Hacker News"
+  },
+  "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/": {
+    "title": "A €0.01 bank transfer could compromise a banking AI agent",
+    "date": "2026-06-11",
+    "source": "Hacker News"
+  },
+  "https://darioamodei.com/post/policy-on-the-ai-exponential": {
+    "title": "Policy on the AI Exponential",
+    "date": "2026-06-11",
+    "source": "Hacker News"
+  },
+  "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/": {
+    "title": "AI agent runs amok in Fedora and elsewhere",
+    "date": "2026-06-11",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.12397v1": {
+    "title": "Redesign Mixture-of-Experts Routers with Manifold Power Iteration",
+    "date": "2026-06-11",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.12412v1": {
+    "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
+    "date": "2026-06-11",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.12411v1": {
+    "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
+    "date": "2026-06-11",
+    "source": "ArXiv"
+  },
+  "https://siliconangle.com/2026/06/10/exclusive-relai-raises-6-9m-enable-verifiable-continuous-learning-ai-agents/": {
+    "title": "Exclusive: Relai raises $6.9M to enable verifiable and continuous learning for AI agents",
+    "date": "2026-06-11",
+    "source": "SiliconANGLE News"
   }
 }
