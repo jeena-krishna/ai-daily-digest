@@ -1148,5 +1148,55 @@
     "title": "Exclusive: Relai raises $6.9M to enable verifiable and continuous learning for AI agents",
     "date": "2026-06-11",
     "source": "SiliconANGLE News"
+  },
+  "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/": {
+    "title": "Claude Fable is relentlessly proactive",
+    "date": "2026-06-12",
+    "source": "Hacker News"
+  },
+  "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype": {
+    "title": "Claude Fable 5: mid-tier results on coding tasks",
+    "date": "2026-06-12",
+    "source": "Hacker News"
+  },
+  "https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d": {
+    "title": "Build a Basic AI Agent from Scratch: Long Task Planning",
+    "date": "2026-06-12",
+    "source": "Hacker News"
+  },
+  "https://github.com/denoland/clawpatrol": {
+    "title": "Show HN: Claw Patrol, a security firewall for agents",
+    "date": "2026-06-12",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.13680v1": {
+    "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+    "date": "2026-06-12",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.13649v1": {
+    "title": "Operadic consistency: a label-free signal for compositional reasoning failures in LLMs",
+    "date": "2026-06-12",
+    "source": "ArXiv"
+  },
+  "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/": {
+    "title": "AI agent bankrupted their operator while trying to scan DN42",
+    "date": "2026-06-12",
+    "source": "Hacker News"
+  },
+  "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/": {
+    "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+    "date": "2026-06-12",
+    "source": "Hacker News"
+  },
+  "https://crlf.link/log/entries/260525-1/": {
+    "title": "Making a vintage LLM from scratch",
+    "date": "2026-06-12",
+    "source": "Hacker News"
+  },
+  "https://www.gamesindustry.biz/my-worry-is-that-generative-ai-is-poisoning-the-well-take-twos-former-head-of-ai-shares-his-concerns-on-the-current-hype-cycle": {
+    "title": "\"My worry is that generative AI is poisoning the well\" – Take-Two's former head of AI shares his concerns on the current hype cycle",
+    "date": "2026-06-12",
+    "source": "GamesIndustry.biz"
   }
 }
