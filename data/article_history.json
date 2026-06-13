@@ -1198,5 +1198,55 @@
     "title": "\"My worry is that generative AI is poisoning the well\" – Take-Two's former head of AI shares his concerns on the current hype cycle",
     "date": "2026-06-12",
     "source": "GamesIndustry.biz"
+  },
+  "https://huggingface.co/moonshotai/Kimi-K2.7-Code": {
+    "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
+    "date": "2026-06-13",
+    "source": "Huggingface.co"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail": {
+    "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+    "date": "2026-06-13",
+    "source": "Hacker News"
+  },
+  "https://www.geeky-gadgets.com/lecun-billion-dollar-ai-bet/": {
+    "title": "Why Yann LeCun is Betting Big Against Large Language Models",
+    "date": "2026-06-13",
+    "source": "Geeky Gadgets"
+  },
+  "https://www.medianama.com/2026/06/223-eu-ai-act-deepfake-labeling-rules/": {
+    "title": "Lowdown: The EU’s new rules for labelling AI-generated content",
+    "date": "2026-06-13",
+    "source": "MediaNama.com"
+  },
+  "https://openai.com/index/academy-courses-applying-ai-at-work": {
+    "title": "New OpenAI Academy courses for the next era of work",
+    "date": "2026-06-13",
+    "source": "OpenAI Blog"
+  },
+  "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos": {
+    "title": "How to setup a local coding agent on macOS",
+    "date": "2026-06-13",
+    "source": "Hacker News"
+  },
+  "https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html": {
+    "title": "OpenAI mulls slashing prices as it competes with Anthropic for users",
+    "date": "2026-06-13",
+    "source": "Hacker News"
+  },
+  "https://bitboard.work/": {
+    "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+    "date": "2026-06-13",
+    "source": "Hacker News"
+  },
+  "https://github.com/Paca-AI/paca": {
+    "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
+    "date": "2026-06-13",
+    "source": "Hacker News"
+  },
+  "https://www.theregister.com/ai-and-ml/2026/06/12/kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations/5255029": {
+    "title": "KPMG's AI report turns into a demo of AI hallucinations",
+    "date": "2026-06-13",
+    "source": "Hacker News"
   }
 }
