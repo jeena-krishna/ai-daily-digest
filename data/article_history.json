@@ -1248,5 +1248,55 @@
     "title": "KPMG's AI report turns into a demo of AI hallucinations",
     "date": "2026-06-13",
     "source": "Hacker News"
+  },
+  "https://www.anthropic.com/research/making-claude-a-chemist": {
+    "title": "Making Claude a Chemist",
+    "date": "2026-06-14",
+    "source": "Hacker News"
+  },
+  "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink": {
+    "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+    "date": "2026-06-14",
+    "source": "Hacker News"
+  },
+  "https://www.nytimes.com/2026/06/13/technology/states-investigating-openai.html": {
+    "title": "State Attorneys General Are Investigating OpenAI",
+    "date": "2026-06-14",
+    "source": "Hacker News"
+  },
+  "https://bastion.computer/": {
+    "title": "Show HN: Bastion – isolated Linux VMs for background coding agents",
+    "date": "2026-06-14",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/allenai/olmo-eval": {
+    "title": "olmo-eval: An evaluation workbench for the model development loop",
+    "date": "2026-06-14",
+    "source": "Hugging Face Blog"
+  },
+  "https://huggingface.co/blog/torch-mlp-fusion": {
+    "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+    "date": "2026-06-14",
+    "source": "Hugging Face Blog"
+  },
+  "https://openai.com/index/openai-to-acquire-ona": {
+    "title": "OpenAI to acquire Ona",
+    "date": "2026-06-14",
+    "source": "OpenAI Blog"
+  },
+  "https://opensourceaimustwin.com/?share=v2": {
+    "title": "Open source AI must win",
+    "date": "2026-06-14",
+    "source": "Hacker News"
+  },
+  "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/": {
+    "title": "AI coding at home without going broke",
+    "date": "2026-06-14",
+    "source": "Hacker News"
+  },
+  "https://medium.com/agileinsider/reinventing-control-theory-one-feature-at-a-time-the-fallacy-of-agentic-loops-01dd533615de": {
+    "title": "Reinventing Control Theory One Feature at a Time: The Fallacy of Agentic Loops",
+    "date": "2026-06-14",
+    "source": "Hacker News"
   }
 }
