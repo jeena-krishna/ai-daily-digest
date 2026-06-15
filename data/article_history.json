@@ -1298,5 +1298,55 @@
     "title": "Reinventing Control Theory One Feature at a Time: The Fallacy of Agentic Loops",
     "date": "2026-06-14",
     "source": "Hacker News"
+  },
+  "https://www.livemint.com/companies/news/dario-amodei-warned-mythos-5-fable-5-was-a-national-security-risk-then-us-government-banned-it-with-export-order-11781393933706.html": {
+    "title": "Did Dario Amodei's own AI warnings hand US Govt the justification to ban Anthropic's Mythos 5 and Fable 5?",
+    "date": "2026-06-15",
+    "source": "Livemint"
+  },
+  "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661": {
+    "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+    "date": "2026-06-15",
+    "source": "Hacker News"
+  },
+  "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/": {
+    "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+    "date": "2026-06-15",
+    "source": "Hacker News"
+  },
+  "https://fortune.com/article/why-is-the-cost-of-ai-higher-than-human-workers-nvidia-executive/": {
+    "title": "‘The cost of compute is far beyond the costs of the employee’: Nvidia executive says right now AI is more expensive than paying human workers",
+    "date": "2026-06-15",
+    "source": "Fortune"
+  },
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims": {
+    "title": "AI cryptomining network's 320,000 RTX 3090-class GPUs allegedly burn 112 megawatts of power on ‘zero useful AI computation’ — GPU rental costs jump 38%, but Pearl’s cards are doing random matrix math, study claims",
+    "date": "2026-06-15",
+    "source": "Tom's Hardware UK"
+  },
+  "http://arxiv.org/abs/2606.14697v1": {
+    "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+    "date": "2026-06-15",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.14672v1": {
+    "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
+    "date": "2026-06-15",
+    "source": "ArXiv"
+  },
+  "https://openai.com/index/introducing-openai-partner-network": {
+    "title": "Introducing the OpenAI Partner Network",
+    "date": "2026-06-15",
+    "source": "OpenAI Blog"
+  },
+  "https://stratechery.com/2026/anthropics-safety-superpower/": {
+    "title": "Anthropic's Safety Superpower",
+    "date": "2026-06-15",
+    "source": "Hacker News"
+  },
+  "https://automato.substack.com/p/apple-wwdc-and-the-fable-5-embargo": {
+    "title": "Cloud-based LLM gold rush is ending",
+    "date": "2026-06-15",
+    "source": "Substack.com"
   }
 }
