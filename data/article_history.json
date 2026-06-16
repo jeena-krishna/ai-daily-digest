@@ -1348,5 +1348,55 @@
     "title": "Cloud-based LLM gold rush is ending",
     "date": "2026-06-15",
     "source": "Substack.com"
+  },
+  "https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/": {
+    "title": "The White House Is Ratcheting Up Its War Against Anthropic",
+    "date": "2026-06-16",
+    "source": "Hacker News"
+  },
+  "https://pyimagesearch.com/2026/06/15/rag-observability-with-langfuse-vllm-and-faiss/": {
+    "title": "RAG Observability with Langfuse, vLLM, and FAISS",
+    "date": "2026-06-16",
+    "source": "Pyimagesearch.com"
+  },
+  "https://spacedaily.com/sd-at-a-140000-square-foot-plant-in-long-beach-that-the-aerospace-industry-calls-space-beach-a-former-raytheon-executive-is-using-agentic-ai-to-turn-out-defense-electronics-in-weeks-instead-of-years/": {
+    "title": "At a 140,000-square-foot plant in Long Beach that the aerospace industry calls Space Beach, a former Raytheon executive is using agentic AI to turn out defense electronics in weeks instead of years — not to replace his engineers, but because the Pentagon wants far more hardware than the shrinking pool of engineers can build",
+    "date": "2026-06-16",
+    "source": "Space Daily"
+  },
+  "http://arxiv.org/abs/2606.17034v1": {
+    "title": "KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing",
+    "date": "2026-06-16",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.17016v1": {
+    "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+    "date": "2026-06-16",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.17035v1": {
+    "title": "Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning",
+    "date": "2026-06-16",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.16999v1": {
+    "title": "Selection Without Signal, Recovery Through Expression: A Measurement Study of Post-Hoc Falsification Operators for Frozen Small Code Models",
+    "date": "2026-06-16",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.17024v1": {
+    "title": "ExpRL: Exploratory RL for LLM Mid-Training",
+    "date": "2026-06-16",
+    "source": "ArXiv"
+  },
+  "https://news.ycombinator.com/item?id=48542100": {
+    "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+    "date": "2026-06-16",
+    "source": "Hacker News"
+  },
+  "https://fata.dev": {
+    "title": "Show HN: Fata – Spaced repetition to fight skill rot from AI coding",
+    "date": "2026-06-16",
+    "source": "Hacker News"
   }
 }
