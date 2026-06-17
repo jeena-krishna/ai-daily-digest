@@ -1398,5 +1398,55 @@
     "title": "Show HN: Fata – Spaced repetition to fight skill rot from AI coding",
     "date": "2026-06-16",
     "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.18193v1": {
+    "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+    "date": "2026-06-17",
+    "source": "ArXiv"
+  },
+  "https://openai.com/index/deployment-simulation": {
+    "title": "Predicting model behavior before release by simulating deployment",
+    "date": "2026-06-17",
+    "source": "OpenAI Blog"
+  },
+  "https://siliconangle.com/2026/06/16/exclusive-mindbeam-touts-dramatic-performance-improvements-cpu-based-ai-inference/": {
+    "title": "Exclusive: Mindbeam touts dramatic performance improvements in CPU-based AI inference",
+    "date": "2026-06-17",
+    "source": "SiliconANGLE News"
+  },
+  "https://martinfowler.com/articles/reliable-llm-bayer.html": {
+    "title": "Building Reliable Agentic AI Systems",
+    "date": "2026-06-17",
+    "source": "Martinfowler.com"
+  },
+  "https://9to5mac.com/2026/06/16/spacex-lands-deal-to-likely-purchase-claude-code-and-openai-codex-competitor/": {
+    "title": "SpaceX purchases Cursor, a Claude Code and OpenAI Codex competitor [U]",
+    "date": "2026-06-17",
+    "source": "9to5Mac"
+  },
+  "https://siliconangle.com/2026/06/16/databricks-declares-end-pipelines-unified-platform-operational-analytical-data/": {
+    "title": "Databricks declares the end of pipelines with a unified platform for operational and analytical data",
+    "date": "2026-06-17",
+    "source": "SiliconANGLE News"
+  },
+  "http://arxiv.org/abs/2606.18168v1": {
+    "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
+    "date": "2026-06-17",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.18208v1": {
+    "title": "Looped World Models",
+    "date": "2026-06-17",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.18206v1": {
+    "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
+    "date": "2026-06-17",
+    "source": "ArXiv"
+  },
+  "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/": {
+    "title": "GPT‑NL: a sovereign language model for the Netherlands",
+    "date": "2026-06-17",
+    "source": "Hacker News"
   }
 }
