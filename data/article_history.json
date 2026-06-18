@@ -1448,5 +1448,55 @@
     "title": "GPT‑NL: a sovereign language model for the Netherlands",
     "date": "2026-06-17",
     "source": "Hacker News"
+  },
+  "https://openai.com/index/ai-chemist-improves-reaction": {
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "date": "2026-06-18",
+    "source": "OpenAI Blog"
+  },
+  "https://github.com/Adam-CAD/CADAM": {
+    "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+    "date": "2026-06-18",
+    "source": "Hacker News"
+  },
+  "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt": {
+    "title": "ChatGPT's image generator can be manipulated to produce violent, sexual content",
+    "date": "2026-06-18",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/introducing-life-sci-bench": {
+    "title": "Introducing LifeSciBench",
+    "date": "2026-06-18",
+    "source": "OpenAI Blog"
+  },
+  "https://www.greptile.com/blog/trex-code-execution": {
+    "title": "TREX: An AI code reviewer that runs your code",
+    "date": "2026-06-18",
+    "source": "Hacker News"
+  },
+  "https://github.com/evanklem/polypore": {
+    "title": "Agentic coding deserves more than a chat box bolted onto VS Code",
+    "date": "2026-06-18",
+    "source": "Hacker News"
+  },
+  "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/": {
+    "title": "AI Compute Extensions (ACE) Specification",
+    "date": "2026-06-18",
+    "source": "Hacker News"
+  },
+  "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch": {
+    "title": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
+    "date": "2026-06-18",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.19319v1": {
+    "title": "Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents",
+    "date": "2026-06-18",
+    "source": "ArXiv"
+  },
+  "https://openrouter.ai/blog/insights/royale-last-agent-standing/": {
+    "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+    "date": "2026-06-18",
+    "source": "Hacker News"
   }
 }
