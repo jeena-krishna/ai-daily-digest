@@ -1498,5 +1498,55 @@
     "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
     "date": "2026-06-18",
     "source": "Hacker News"
+  },
+  "https://openai.com/index/improving-health-intelligence-in-chatgpt": {
+    "title": "Improving health intelligence in ChatGPT",
+    "date": "2026-06-19",
+    "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/diagnose-rare-childhood-diseases": {
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "date": "2026-06-19",
+    "source": "OpenAI Blog"
+  },
+  "https://claude.com/blog/the-founders-playbook": {
+    "title": "The founder's playbook: Building an AI-native startup",
+    "date": "2026-06-19",
+    "source": "Hacker News"
+  },
+  "https://twitter.com/NoamShazeer/status/2067400851438932297": {
+    "title": "Noam Shazeer Joins OpenAI",
+    "date": "2026-06-19",
+    "source": "Hacker News"
+  },
+  "https://agenticresourcediscovery.org/introduction/": {
+    "title": "Agentic Resource Discovery Specification",
+    "date": "2026-06-19",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.20517v1": {
+    "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
+    "date": "2026-06-19",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.20512v1": {
+    "title": "Probe-and-Refine Tuning of Repository Guidance for Coding Agents",
+    "date": "2026-06-19",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.20529v1": {
+    "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+    "date": "2026-06-19",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.20520v1": {
+    "title": "Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes",
+    "date": "2026-06-19",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.20508v1": {
+    "title": "What Do Safety-Aligned LLMs Learn From Mixed Compliance Demonstrations?",
+    "date": "2026-06-19",
+    "source": "ArXiv"
   }
 }
