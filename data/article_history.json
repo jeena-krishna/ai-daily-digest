@@ -1548,5 +1548,55 @@
     "title": "What Do Safety-Aligned LLMs Learn From Mixed Compliance Demonstrations?",
     "date": "2026-06-19",
     "source": "ArXiv"
+  },
+  "https://arrowtsx.dev/bigger-models/": {
+    "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+    "date": "2026-06-20",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/peft-beyond-lora": {
+    "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+    "date": "2026-06-20",
+    "source": "Hugging Face Blog"
+  },
+  "https://huggingface.co/blog/ServiceNow/mosaicleaks": {
+    "title": "MosaicLeaks: Can your research agent keep a secret?",
+    "date": "2026-06-20",
+    "source": "Hugging Face Blog"
+  },
+  "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/": {
+    "title": "LLMs Are Complicated Now",
+    "date": "2026-06-20",
+    "source": "Hacker News"
+  },
+  "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314": {
+    "title": "Companies rein in AI usage as costs strain budgets",
+    "date": "2026-06-20",
+    "source": "Hacker News"
+  },
+  "https://www.c-sharpcorner.com/article/designing-ai-aware-event-streaming-architectures-with-kafka-and-net/": {
+    "title": "Designing AI-Aware Event Streaming Architectures with Kafka and .NET",
+    "date": "2026-06-20",
+    "source": "C-sharpcorner.com"
+  },
+  "https://huggingface.co/blog/is-it-agentic-enough": {
+    "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+    "date": "2026-06-20",
+    "source": "Hugging Face Blog"
+  },
+  "https://sauleau.com/notes/airgap-security-for-the-modern-ai-age.html": {
+    "title": "Hide Secrets from AI Agents and NPM install using Airgap",
+    "date": "2026-06-20",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware": {
+    "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "date": "2026-06-20",
+    "source": "Hugging Face Blog"
+  },
+  "https://www.forbes.com/sites/lanceeliot/2026/06/19/harness-engineering-becomes-vital-backbone-for-ai-makers-and-happy-users/": {
+    "title": "Harness Engineering Becomes Vital Backbone For AI Makers And Happy Users",
+    "date": "2026-06-20",
+    "source": "Forbes"
   }
 }
