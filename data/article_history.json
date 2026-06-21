@@ -1598,5 +1598,55 @@
     "title": "Harness Engineering Becomes Vital Backbone For AI Makers And Happy Users",
     "date": "2026-06-20",
     "source": "Forbes"
+  },
+  "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/": {
+    "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+    "date": "2026-06-21",
+    "source": "Google AI Blog"
+  },
+  "https://openai.com/index/chatgpt-enterprise-spend-controls": {
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "date": "2026-06-21",
+    "source": "OpenAI Blog"
+  },
+  "https://blog.cloudflare.com/temporary-accounts/": {
+    "title": "Temporary Cloudflare accounts for AI agents",
+    "date": "2026-06-21",
+    "source": "Hacker News"
+  },
+  "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/": {
+    "title": "Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
+    "date": "2026-06-21",
+    "source": "Hacker News"
+  },
+  "https://wccftech.com/intel-ceo-lip-bu-tan-spills-the-beans-on-elon-musks-problem-solving-reveals-potentially-major-chip-supply-chain-shortage/": {
+    "title": "Intel CEO Lip-Bu Tan Spills The Beans on Elon Musk’s Problem Solving & Reveals Potentially Major Chip Supply Chain Shortage",
+    "date": "2026-06-21",
+    "source": "Wccftech"
+  },
+  "https://www.livemint.com/companies/news/john-jumper-google-deepmind-anthropic-alphafold-nobel-prize-claude-11781946065413.html": {
+    "title": "Google DeepMind loses Nobel laureate John Jumper to Anthropic, its third senior researcher to depart in as many months",
+    "date": "2026-06-21",
+    "source": "Livemint"
+  },
+  "http://arxiv.org/abs/2606.20537v1": {
+    "title": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
+    "date": "2026-06-21",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.20510v1": {
+    "title": "Efficient and Sound Probabilistic Verification for AI Agents",
+    "date": "2026-06-21",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.20560v1": {
+    "title": "How Transparent is DiffusionGemma?",
+    "date": "2026-06-21",
+    "source": "ArXiv"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data": {
+    "title": "The Atlantic created a searchable database of the music used to train AI",
+    "date": "2026-06-21",
+    "source": "The Verge AI"
   }
 }
