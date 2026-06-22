@@ -1648,5 +1648,55 @@
     "title": "The Atlantic created a searchable database of the music used to train AI",
     "date": "2026-06-21",
     "source": "The Verge AI"
+  },
+  "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment": {
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "date": "2026-06-22",
+    "source": "OpenAI Blog"
+  },
+  "https://apertvs.ai/": {
+    "title": "Apertus – Open Foundation Model for Sovereign AI",
+    "date": "2026-06-22",
+    "source": "Hacker News"
+  },
+  "https://hustvl.github.io/Moebius/": {
+    "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+    "date": "2026-06-22",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6": {
+    "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+    "date": "2026-06-22",
+    "source": "Hugging Face Blog"
+  },
+  "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions": {
+    "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+    "date": "2026-06-22",
+    "source": "Hacker News"
+  },
+  "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/": {
+    "title": "28 Tips to Take Your ChatGPT Prompts to the Next Level",
+    "date": "2026-06-22",
+    "source": "Wired"
+  },
+  "https://www.naturalnews.com/2026-06-21-amazon-in-talks-sell-trainium-ai-chips.html": {
+    "title": "Amazon in Talks to Sell Trainium AI Chips to Third Parties",
+    "date": "2026-06-22",
+    "source": "Naturalnews.com"
+  },
+  "https://github.com/hrudulmmn/crespo": {
+    "title": "Show HN: Crespo – Tree-sitter AST blueprints instead of raw code for LLMs",
+    "date": "2026-06-22",
+    "source": "Hacker News"
+  },
+  "https://newrepublic.com/article/204327/ai-integration-nuclear-war-machine": {
+    "title": "The AI Ghost in the Nuclear War Machine",
+    "date": "2026-06-22",
+    "source": "The New Republic"
+  },
+  "http://arxiv.org/abs/2606.20557v1": {
+    "title": "Optimal Deterministic Multicalibration and Omniprediction",
+    "date": "2026-06-22",
+    "source": "ArXiv"
   }
 }
