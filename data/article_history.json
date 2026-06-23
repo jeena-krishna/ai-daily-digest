@@ -1698,5 +1698,55 @@
     "title": "Optimal Deterministic Multicalibration and Omniprediction",
     "date": "2026-06-22",
     "source": "ArXiv"
+  },
+  "https://openai.com/index/daybreak-securing-the-world/": {
+    "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+    "date": "2026-06-23",
+    "source": "Hacker News"
+  },
+  "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open": {
+    "title": "GLM-5.2 is the step change for open agents",
+    "date": "2026-06-23",
+    "source": "Hacker News"
+  },
+  "https://pyimagesearch.com/2026/06/22/google-deepminds-gemma-4-moe-efficiency-tricks-and-benchmarks/": {
+    "title": "Google DeepMind’s Gemma 4: MoE, Efficiency Tricks, and Benchmarks",
+    "date": "2026-06-23",
+    "source": "Pyimagesearch.com"
+  },
+  "http://arxiv.org/abs/2606.23664v1": {
+    "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+    "date": "2026-06-23",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.23617v1": {
+    "title": "RECALL: Recovery Experience Collection for Active Lifelong Learning in Vision-Language-Action Models",
+    "date": "2026-06-23",
+    "source": "ArXiv"
+  },
+  "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/": {
+    "title": "The text in Claude Code’s “Extended Thinking” output",
+    "date": "2026-06-23",
+    "source": "Hacker News"
+  },
+  "https://oak.space/oak/oak": {
+    "title": "Show HN: Oak – Git alternative designed for agents",
+    "date": "2026-06-23",
+    "source": "Hacker News"
+  },
+  "https://github.com/raiyanyahya/recall": {
+    "title": "Show HN: Recall – Local project memory for Claude Code",
+    "date": "2026-06-23",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.23679v1": {
+    "title": "Semantic Browsing: Controllable Diversity for Image Generation",
+    "date": "2026-06-23",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.23678v1": {
+    "title": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
+    "date": "2026-06-23",
+    "source": "ArXiv"
   }
 }
