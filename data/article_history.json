@@ -1748,5 +1748,55 @@
     "title": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
     "date": "2026-06-23",
     "source": "ArXiv"
+  },
+  "https://arxiv.org/abs/2606.24597": {
+    "title": "Qwen-AgentWorld: Language World Models for General Agents",
+    "date": "2026-06-24",
+    "source": "Hacker News"
+  },
+  "https://haystack.deepset.ai/": {
+    "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG",
+    "date": "2026-06-24",
+    "source": "Hacker News"
+  },
+  "https://github.com/End2End-Diffusion/diffusion-bench": {
+    "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+    "date": "2026-06-24",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.24884v1": {
+    "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+    "date": "2026-06-24",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.24855v1": {
+    "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+    "date": "2026-06-24",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.24790v1": {
+    "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+    "date": "2026-06-24",
+    "source": "ArXiv"
+  },
+  "https://www.anthropic.com/news/introducing-claude-tag": {
+    "title": "Claude Tag",
+    "date": "2026-06-24",
+    "source": "Hacker News"
+  },
+  "https://www.geeky-gadgets.com/deepseek-ai-efficiency-breakthrough/": {
+    "title": "What DeepSeek’s Open-Science Breakthrough Means for Enterprise AI",
+    "date": "2026-06-24",
+    "source": "Geeky Gadgets"
+  },
+  "https://siliconangle.com/2026/06/23/cdata-targets-ai-developers-governed-data-access-tools/": {
+    "title": "CData targets AI developers with governed data access tools",
+    "date": "2026-06-24",
+    "source": "SiliconANGLE News"
+  },
+  "https://github.com/y-times-y/y": {
+    "title": "Show HN: Y – A malleable coding-agent desktop app built with Electron",
+    "date": "2026-06-24",
+    "source": "Hacker News"
   }
 }
