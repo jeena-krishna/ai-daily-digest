@@ -1798,5 +1798,55 @@
     "title": "Show HN: Y – A malleable coding-agent desktop app built with Electron",
     "date": "2026-06-24",
     "source": "Hacker News"
+  },
+  "https://openai.com/index/openai-broadcom-jalapeno-inference-chip": {
+    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "date": "2026-06-25",
+    "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/gpt-5-immunology-mystery": {
+    "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+    "date": "2026-06-25",
+    "source": "OpenAI Blog"
+  },
+  "http://arxiv.org/abs/2606.26057v1": {
+    "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
+    "date": "2026-06-25",
+    "source": "ArXiv"
+  },
+  "https://openai.com/index/how-agents-are-transforming-work": {
+    "title": "How agents are transforming work",
+    "date": "2026-06-25",
+    "source": "OpenAI Blog"
+  },
+  "https://rubyllm.com/": {
+    "title": "RubyLLM: A Ruby framework for all major AI providers",
+    "date": "2026-06-25",
+    "source": "Hacker News"
+  },
+  "https://github.com/NotASithLord/peerd": {
+    "title": "Show HN: peerd – AI agent harness that runs entirely in your browser",
+    "date": "2026-06-25",
+    "source": "Hacker News"
+  },
+  "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/": {
+    "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+    "date": "2026-06-25",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.26080v1": {
+    "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+    "date": "2026-06-25",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.26002v1": {
+    "title": "Hierarchical Reinforcement Learning for Neural Network Compression (HiReLC): Pruning and Quantization",
+    "date": "2026-06-25",
+    "source": "ArXiv"
+  },
+  "https://openai.com/index/helping-build-shared-standards-for-advanced-ai": {
+    "title": "Helping build shared standards for advanced AI",
+    "date": "2026-06-25",
+    "source": "OpenAI Blog"
   }
 }
