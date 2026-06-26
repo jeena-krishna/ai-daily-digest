@@ -1848,5 +1848,55 @@
     "title": "Helping build shared standards for advanced AI",
     "date": "2026-06-25",
     "source": "OpenAI Blog"
+  },
+  "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/": {
+    "title": "OpenAI unveils its first custom chip, built by Broadcom",
+    "date": "2026-06-26",
+    "source": "Hacker News"
+  },
+  "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true": {
+    "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+    "date": "2026-06-26",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.27369v1": {
+    "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
+    "date": "2026-06-26",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.27287v1": {
+    "title": "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings",
+    "date": "2026-06-26",
+    "source": "ArXiv"
+  },
+  "https://huggingface.co/blog/vllm-jobs": {
+    "title": "Run a vLLM Server on HF Jobs in One Command",
+    "date": "2026-06-26",
+    "source": "Hugging Face Blog"
+  },
+  "https://www.fernandoi.cl/posts/hackmyclaw/": {
+    "title": "What happened after 2k people tried to hack my AI assistant",
+    "date": "2026-06-26",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.27288v1": {
+    "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+    "date": "2026-06-26",
+    "source": "ArXiv"
+  },
+  "https://idlemachines.co.uk/essays/pytorch-training-loop": {
+    "title": "The annotated PyTorch training loop",
+    "date": "2026-06-26",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.27330v1": {
+    "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+    "date": "2026-06-26",
+    "source": "ArXiv"
+  },
+  "https://openai.com/index/omio": {
+    "title": "How Omio is building the future of conversational travel",
+    "date": "2026-06-26",
+    "source": "OpenAI Blog"
   }
 }
