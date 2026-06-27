@@ -1898,5 +1898,55 @@
     "title": "How Omio is building the future of conversational travel",
     "date": "2026-06-26",
     "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/previewing-gpt-5-6-sol": {
+    "title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "date": "2026-06-27",
+    "source": "OpenAI Blog"
+  },
+  "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/": {
+    "title": "U.S. government will decide who gets to use GPT-5.6",
+    "date": "2026-06-27",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel": {
+    "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+    "date": "2026-06-27",
+    "source": "Hugging Face Blog"
+  },
+  "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies": {
+    "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
+    "date": "2026-06-27",
+    "source": "Hacker News"
+  },
+  "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-spices-things-up-with-jalapeno-chips-why-the-sam-altman-led-ai-startup-is-building-its-own-processors/articleshow/132010288.cms": {
+    "title": "OpenAI spices things up with Jalapeno chips: Why the Sam Altman-led AI startup is building its own processors",
+    "date": "2026-06-27",
+    "source": "The Times of India"
+  },
+  "https://blog.doubleword.ai/frontier-os-llm": {
+    "title": "The gap between open weights LLMs and closed source LLMs",
+    "date": "2026-06-27",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.27326v1": {
+    "title": "Hallucination in World Models is Predictable and Preventable",
+    "date": "2026-06-27",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.27359v1": {
+    "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+    "date": "2026-06-27",
+    "source": "ArXiv"
+  },
+  "https://www.agent-kits.com": {
+    "title": "AgentKits – 60 production-ready AI agent blueprints with guardrails",
+    "date": "2026-06-27",
+    "source": "Hacker News"
+  },
+  "https://trakkr.ai/bias": {
+    "title": "Political bias in AI: Where the AI models stand",
+    "date": "2026-06-27",
+    "source": "Hacker News"
   }
 }
