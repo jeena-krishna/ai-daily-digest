@@ -1948,5 +1948,55 @@
     "title": "Political bias in AI: Where the AI models stand",
     "date": "2026-06-27",
     "source": "Hacker News"
+  },
+  "https://openai.com/index/previewing-gpt-5-6-sol/": {
+    "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+    "date": "2026-06-28",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/blog/ibm-research/cuga-apps": {
+    "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+    "date": "2026-06-28",
+    "source": "Hugging Face Blog"
+  },
+  "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf": {
+    "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+    "date": "2026-06-28",
+    "source": "Hacker News"
+  },
+  "https://arxiv.org/abs/2606.22283": {
+    "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+    "date": "2026-06-28",
+    "source": "Hacker News"
+  },
+  "https://github.com/itsthelore/wayfinder-router": {
+    "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+    "date": "2026-06-28",
+    "source": "Hacker News"
+  },
+  "https://siliconangle.com/2026/06/26/unconventional-ai-debuts-oscillator-based-un-0-model-series/": {
+    "title": "Unconventional AI debuts oscillator-based Un-0 model series",
+    "date": "2026-06-28",
+    "source": "SiliconANGLE News"
+  },
+  "https://www.nextgov.com/policy/2026/06/tech-bills-week-labeling-ai-generated-content-ai-standards-private-sector-companies-and-more/414480/": {
+    "title": "Tech bills of the week: Labeling AI-generated content; AI standards for private sector companies; and more",
+    "date": "2026-06-28",
+    "source": "Nextgov"
+  },
+  "https://huggingface.co/blog/ffasr-leaderboard": {
+    "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+    "date": "2026-06-28",
+    "source": "Hugging Face Blog"
+  },
+  "http://arxiv.org/abs/2606.27377v1": {
+    "title": "DanceOPD: On-Policy Generative Field Distillation",
+    "date": "2026-06-28",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.27321v1": {
+    "title": "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders",
+    "date": "2026-06-28",
+    "source": "ArXiv"
   }
 }
