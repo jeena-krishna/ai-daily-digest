@@ -2048,5 +2048,55 @@
     "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
     "date": "2026-06-29",
     "source": "Hacker News"
+  },
+  "https://github.com/deepreinforce-ai/Ornith-1": {
+    "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+    "date": "2026-06-30",
+    "source": "Hacker News"
+  },
+  "https://github.com/ogulcancelik/herdr": {
+    "title": "Herdr: Agent multiplexer that lives in your terminal",
+    "date": "2026-06-30",
+    "source": "Hacker News"
+  },
+  "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models": {
+    "title": "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API",
+    "date": "2026-06-30",
+    "source": "Hacker News"
+  },
+  "https://pyimagesearch.com/2026/06/29/building-an-intelligent-chatbot-with-qwen3-instruct-and-thinking-models/": {
+    "title": "Building an Intelligent Chatbot with Qwen3 Instruct and Thinking Models",
+    "date": "2026-06-30",
+    "source": "Pyimagesearch.com"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder": {
+    "title": "OpenAI is teasing new hardware… for Codex",
+    "date": "2026-06-30",
+    "source": "The Verge AI"
+  },
+  "https://www.infoq.com/articles/security-ai-threat-evolution/": {
+    "title": "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution",
+    "date": "2026-06-30",
+    "source": "InfoQ.com"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity": {
+    "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
+    "date": "2026-06-30",
+    "source": "The Verge AI"
+  },
+  "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/": {
+    "title": "Gemini’s personalized AI image generation is now free for US users",
+    "date": "2026-06-30",
+    "source": "TechCrunch AI"
+  },
+  "https://huggingface.co/blog/allenai/discoformer": {
+    "title": "DiScoFormer: One transformer for density and score, across distributions",
+    "date": "2026-06-30",
+    "source": "Hugging Face Blog"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon": {
+    "title": "Lawmakers want to ban AI companies from selling your health data",
+    "date": "2026-06-30",
+    "source": "The Verge AI"
   }
 }
