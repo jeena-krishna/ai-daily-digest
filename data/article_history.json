@@ -2098,5 +2098,55 @@
     "title": "Lawmakers want to ban AI companies from selling your health data",
     "date": "2026-06-30",
     "source": "The Verge AI"
+  },
+  "https://thereallo.dev/blog/claude-code-prompt-steganography": {
+    "title": "Claude Code is steganographically marking requests",
+    "date": "2026-07-01",
+    "source": "Hacker News"
+  },
+  "https://www.anthropic.com/news/claude-sonnet-5": {
+    "title": "Claude Sonnet 5",
+    "date": "2026-07-01",
+    "source": "Hacker News"
+  },
+  "https://twitter.com/anthropicai/status/2072163884430229756": {
+    "title": "Claude Fable 5 available globally tomorrow",
+    "date": "2026-07-01",
+    "source": "Hacker News"
+  },
+  "https://claude.com/product/claude-science": {
+    "title": "Claude Science",
+    "date": "2026-07-01",
+    "source": "Hacker News"
+  },
+  "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/": {
+    "title": "Godot will no longer accept AI-authored code contributions",
+    "date": "2026-07-01",
+    "source": "Hacker News"
+  },
+  "https://www.liquid.ai/blog/lfm2-5-230m": {
+    "title": "Liquid AI releases a 230M model optimized for phones, Raspberry Pi, and robots",
+    "date": "2026-07-01",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/introducing-genebench-pro": {
+    "title": "Introducing GeneBench-Pro",
+    "date": "2026-07-01",
+    "source": "OpenAI Blog"
+  },
+  "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1": {
+    "title": "From brain waves to words: a new path to communication without surgery",
+    "date": "2026-07-01",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2606.32034v1": {
+    "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+    "date": "2026-07-01",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2606.32038v1": {
+    "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
+    "date": "2026-07-01",
+    "source": "ArXiv"
   }
 }
