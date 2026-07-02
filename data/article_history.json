@@ -2148,5 +2148,55 @@
     "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
     "date": "2026-07-01",
     "source": "ArXiv"
+  },
+  "https://old.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/": {
+    "title": "Anthropic embedded spyware in Claude Code – and attempted to hide it from you",
+    "date": "2026-07-02",
+    "source": "Hacker News"
+  },
+  "https://twitter.com/AnthropicAI/status/2072106151890809341": {
+    "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+    "date": "2026-07-02",
+    "source": "Hacker News"
+  },
+  "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/": {
+    "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+    "date": "2026-07-02",
+    "source": "Hacker News"
+  },
+  "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/": {
+    "title": "The Download: Anthropic launches Claude Science, and California’s carbon manure math",
+    "date": "2026-07-02",
+    "source": "MIT Technology Review"
+  },
+  "https://twitter.com/Ric_RTP/status/2072403984304984202": {
+    "title": "Karp: Anthropic/OpenAI are stealing customer IP and their tokens have low value",
+    "date": "2026-07-02",
+    "source": "Hacker News"
+  },
+  "https://senior-swe-bench.snorkel.ai/": {
+    "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
+    "date": "2026-07-02",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.01208v1": {
+    "title": "Distill to Detect: Exposing Stealth Biases in LLMs through Cartridge Distillation",
+    "date": "2026-07-02",
+    "source": "ArXiv"
+  },
+  "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug": {
+    "title": "Core dump epidemiology: fixing an 18-year-old bug",
+    "date": "2026-07-02",
+    "source": "OpenAI Blog"
+  },
+  "https://www.channelnewsasia.com/business/wayve-courts-automakers-ai-driving-system-learns-humans-6224546": {
+    "title": "Wayve courts automakers with AI driving system that learns like humans",
+    "date": "2026-07-02",
+    "source": "CNA"
+  },
+  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/": {
+    "title": "The latest AI news we announced in June 2026",
+    "date": "2026-07-02",
+    "source": "Google AI Blog"
   }
 }
