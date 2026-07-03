@@ -2198,5 +2198,55 @@
     "title": "The latest AI news we announced in June 2026",
     "date": "2026-07-02",
     "source": "Google AI Blog"
+  },
+  "https://openai.com/index/how-chatgpt-adoption-has-expanded": {
+    "title": "How ChatGPT adoption has expanded",
+    "date": "2026-07-03",
+    "source": "OpenAI Blog"
+  },
+  "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/": {
+    "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+    "date": "2026-07-03",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/genebench-pro/case-studies": {
+    "title": "Inside Genebench-Pro",
+    "date": "2026-07-03",
+    "source": "OpenAI Blog"
+  },
+  "https://github.com/clidey/deptrust": {
+    "title": "Show HN: CLI that helps AI agents avoid vulnerable dependencies",
+    "date": "2026-07-03",
+    "source": "Hacker News"
+  },
+  "https://github.com/unliftedq/imagent": {
+    "title": "Show HN: Imagent – agentic image/video/speech generation",
+    "date": "2026-07-03",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.02514v1": {
+    "title": "Distributed Attacks in Persistent-State AI Control",
+    "date": "2026-07-03",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.02513v1": {
+    "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+    "date": "2026-07-03",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.02512v1": {
+    "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+    "date": "2026-07-03",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.02510v1": {
+    "title": "Online Safety Monitoring for LLMs",
+    "date": "2026-07-03",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.02509v1": {
+    "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+    "date": "2026-07-03",
+    "source": "ArXiv"
   }
 }
