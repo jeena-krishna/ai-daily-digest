@@ -2248,5 +2248,55 @@
     "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
     "date": "2026-07-03",
     "source": "ArXiv"
+  },
+  "https://huggingface.co/blog/cerebras-gemma4-voice-ai": {
+    "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+    "date": "2026-07-04",
+    "source": "Hugging Face Blog"
+  },
+  "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post": {
+    "title": "Agentic coding notes from Galapagos Island",
+    "date": "2026-07-04",
+    "source": "Hacker News"
+  },
+  "https://github.com/jamesob/local-llm": {
+    "title": "Jamesob's guide to running SOTA LLMs locally",
+    "date": "2026-07-04",
+    "source": "Hacker News"
+  },
+  "https://securityaffairs.com/194709/hacking/the-anatomy-of-a-shadow-ai-supply-chain-breach-lessons-from-the-2026-vercel-incident.html": {
+    "title": "The Anatomy of a Shadow AI Supply-Chain Breach: Lessons from the 2026 Vercel Incident",
+    "date": "2026-07-04",
+    "source": "Securityaffairs.com"
+  },
+  "https://github.com/HUANGCHIHHUNGLeo/claude-real-video": {
+    "title": "Claude-real-video － any LLM can watch a video",
+    "date": "2026-07-04",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.02507v1": {
+    "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+    "date": "2026-07-04",
+    "source": "ArXiv"
+  },
+  "https://github.com/regolo-ai/brick-SR1": {
+    "title": "Save Claude Code Tokens with Smart Routing",
+    "date": "2026-07-04",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.02502v1": {
+    "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+    "date": "2026-07-04",
+    "source": "ArXiv"
+  },
+  "https://epoch.ai/data-insights/cve-severity-spike": {
+    "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+    "date": "2026-07-04",
+    "source": "Hacker News"
+  },
+  "https://www.pcworld.com/article/3182319/prepare-to-expect-less-from-your-cheap-ai-subscription.html": {
+    "title": "Prepare to expect less from your cheap AI subscription",
+    "date": "2026-07-04",
+    "source": "PCWorld"
   }
 }
