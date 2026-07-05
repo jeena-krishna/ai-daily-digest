@@ -2298,5 +2298,55 @@
     "title": "Prepare to expect less from your cheap AI subscription",
     "date": "2026-07-04",
     "source": "PCWorld"
+  },
+  "https://github.com/openai/codex/issues/30364": {
+    "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+    "date": "2026-07-05",
+    "source": "Hacker News"
+  },
+  "https://hic-ai.com": {
+    "title": "Mouse: Precision Editing Tools for AI Coding Agents",
+    "date": "2026-07-05",
+    "source": "Hacker News"
+  },
+  "https://sigmap.io/": {
+    "title": "SigMap: 97% token reduction for AI coding sessions",
+    "date": "2026-07-05",
+    "source": "Hacker News"
+  },
+  "https://ridgetext.com/blog/mapbox-llm-composition": {
+    "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
+    "date": "2026-07-05",
+    "source": "Hacker News"
+  },
+  "https://tane.dev/2026/07/the-reports-of-jim-carreys-death-are-a-failure-mode/": {
+    "title": "The Reports of Jim Carrey's Death Are a Failure Mode",
+    "date": "2026-07-05",
+    "source": "Hacker News"
+  },
+  "https://xcancel.com/i/article/2072830533739192560": {
+    "title": "Concentration of power in AI is a risk, by Andy Konwinski",
+    "date": "2026-07-05",
+    "source": "Hacker News"
+  },
+  "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector": {
+    "title": "The fanfiction community is at war with AI — and itself",
+    "date": "2026-07-05",
+    "source": "The Verge AI"
+  },
+  "https://huggingface.co/blog/ibm-research/scarfbench": {
+    "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+    "date": "2026-07-05",
+    "source": "Hugging Face Blog"
+  },
+  "http://arxiv.org/abs/2607.02461v1": {
+    "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
+    "date": "2026-07-05",
+    "source": "ArXiv"
+  },
+  "https://github.com/0xroylee/getsuperpower": {
+    "title": "GetSuperpower, an installable skill tree for coding agents",
+    "date": "2026-07-05",
+    "source": "Hacker News"
   }
 }
