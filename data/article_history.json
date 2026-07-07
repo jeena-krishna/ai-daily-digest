@@ -2398,5 +2398,55 @@
     "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
     "date": "2026-07-06",
     "source": "Hacker News"
+  },
+  "https://www.anthropic.com/features/making-of-claude-code": {
+    "title": "The Making of Claude Code",
+    "date": "2026-07-07",
+    "source": "Hacker News"
+  },
+  "https://github.com/mozilla-ai/otari": {
+    "title": "Show HN: Otari: your open-source LLM control plane",
+    "date": "2026-07-07",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.05378v1": {
+    "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+    "date": "2026-07-07",
+    "source": "ArXiv"
+  },
+  "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/": {
+    "title": "GLM 5.2 and the coming AI margin collapse",
+    "date": "2026-07-07",
+    "source": "Hacker News"
+  },
+  "https://www.globalsecurity.org/military/library/news/2026/07/mil-260706-unnews06.htm": {
+    "title": "From AI to 'killer robots': UN chief issues urgent governance call",
+    "date": "2026-07-07",
+    "source": "Globalsecurity.org"
+  },
+  "https://github.com/iOfficeAI/OfficeCLI": {
+    "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+    "date": "2026-07-07",
+    "source": "Hacker News"
+  },
+  "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo": {
+    "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
+    "date": "2026-07-07",
+    "source": "Hacker News"
+  },
+  "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals": {
+    "title": "Small AI Models Gain Traction In places with unreliable networks",
+    "date": "2026-07-07",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.05391v1": {
+    "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+    "date": "2026-07-07",
+    "source": "ArXiv"
+  },
+  "https://androidguys.com/promoted-news/the-future-of-edge-ai-and-data-sovereignty/": {
+    "title": "The Future of Edge AI and Data Sovereignty",
+    "date": "2026-07-07",
+    "source": "AndroidGuys"
   }
 }
