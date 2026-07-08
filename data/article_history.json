@@ -2448,5 +2448,55 @@
     "title": "The Future of Edge AI and Data Sovereignty",
     "date": "2026-07-07",
     "source": "AndroidGuys"
+  },
+  "https://twitter.com/OpenAI/status/2074704958419792299": {
+    "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+    "date": "2026-07-08",
+    "source": "Hacker News"
+  },
+  "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/": {
+    "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+    "date": "2026-07-08",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.06523v1": {
+    "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
+    "date": "2026-07-08",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.06503v1": {
+    "title": "Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade",
+    "date": "2026-07-08",
+    "source": "ArXiv"
+  },
+  "https://github.com/bkuan001/halo-record": {
+    "title": "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents",
+    "date": "2026-07-08",
+    "source": "Hacker News"
+  },
+  "https://news.un.org/en/story/2026/07/1167886": {
+    "title": "When AI hurts people, who’s to blame? Global experts grapple with accountability",
+    "date": "2026-07-08",
+    "source": "UN News"
+  },
+  "https://github.com/rowboatlabs/rowboat": {
+    "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+    "date": "2026-07-08",
+    "source": "Hacker News"
+  },
+  "https://github.com/kklimuk/docx-cli": {
+    "title": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
+    "date": "2026-07-08",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.06565v1": {
+    "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "date": "2026-07-08",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.06485v1": {
+    "title": "AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models",
+    "date": "2026-07-08",
+    "source": "ArXiv"
   }
 }
