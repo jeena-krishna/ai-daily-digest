@@ -2498,5 +2498,55 @@
     "title": "AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models",
     "date": "2026-07-08",
     "source": "ArXiv"
+  },
+  "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02": {
+    "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://fightchatcontrol.eu/chat-control-overview": {
+    "title": "Chat Control 1.0 and 2.0 Explained",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/introducing-gpt-live/": {
+    "title": "GPT‑Live",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why": {
+    "title": "EVE Online's Carbon engine is now open source: Fenris Creations explains why",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://www.alecscollon.com/blog/llm-burnout/": {
+    "title": "I think I have LLM burnout",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://kb.cert.org/vuls/id/213560": {
+    "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://microsoft.github.io/flint-chart/#/": {
+    "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://cognition.com/blog/swe-1-7": {
+    "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html": {
+    "title": "The classifiers Anthropic puts in front of Fable are too zealous",
+    "date": "2026-07-09",
+    "source": "Hacker News"
+  },
+  "https://ride.nexttrain.london/": {
+    "title": "Show HN: Follow London Trains in 3D",
+    "date": "2026-07-09",
+    "source": "Hacker News"
   }
 }
