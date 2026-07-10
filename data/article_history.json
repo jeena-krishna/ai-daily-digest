@@ -2548,5 +2548,55 @@
     "title": "Show HN: Follow London Trains in 3D",
     "date": "2026-07-09",
     "source": "Hacker News"
+  },
+  "https://openai.com/index/gpt-5-6/": {
+    "title": "GPT-5.6",
+    "date": "2026-07-10",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/chatgpt-for-your-most-ambitious-work/": {
+    "title": "ChatGPT Work",
+    "date": "2026-07-10",
+    "source": "Hacker News"
+  },
+  "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase": {
+    "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
+    "date": "2026-07-10",
+    "source": "Hacker News"
+  },
+  "https://github.com/Rodiun/frugon": {
+    "title": "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT)",
+    "date": "2026-07-10",
+    "source": "Hacker News"
+  },
+  "https://knock.app/blog/how-we-built-the-knock-agent-virtual-filesystem-and-bash": {
+    "title": "Files over tools: how we built our agent with a virtual filesystem and bash",
+    "date": "2026-07-10",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.08745v1": {
+    "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+    "date": "2026-07-10",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.08740v1": {
+    "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+    "date": "2026-07-10",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.08734v1": {
+    "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
+    "date": "2026-07-10",
+    "source": "ArXiv"
+  },
+  "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid": {
+    "title": "What's slowing down the AI buildout",
+    "date": "2026-07-10",
+    "source": "Hacker News"
+  },
+  "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/": {
+    "title": "The next era of AI is about infrastructure, not just models",
+    "date": "2026-07-10",
+    "source": "Hacker News"
   }
 }
