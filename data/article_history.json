@@ -2598,5 +2598,55 @@
     "title": "The next era of AI is about infrastructure, not just models",
     "date": "2026-07-10",
     "source": "Hacker News"
+  },
+  "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf": {
+    "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+    "date": "2026-07-11",
+    "source": "Hacker News"
+  },
+  "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/": {
+    "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+    "date": "2026-07-11",
+    "source": "Hacker News"
+  },
+  "https://news.ycombinator.com/item?id=48847834": {
+    "title": "Show HN: Reverse-engineering web apps into agent tools",
+    "date": "2026-07-11",
+    "source": "Hacker News"
+  },
+  "https://abralo.com/": {
+    "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+    "date": "2026-07-11",
+    "source": "Hacker News"
+  },
+  "https://arxiv.org/abs/2607.08147": {
+    "title": "Prismata: Confining cross-site prompt injection in web agents",
+    "date": "2026-07-11",
+    "source": "Hacker News"
+  },
+  "https://casp.ac/reports/ai-enabled-terrorism": {
+    "title": "How the terrorist group Boko Haram uses frontier AI",
+    "date": "2026-07-11",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.08754v1": {
+    "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
+    "date": "2026-07-11",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.08733v1": {
+    "title": "Super Weights in LLMs and the Failure of Selective Training",
+    "date": "2026-07-11",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.08716v1": {
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+    "date": "2026-07-11",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.08763v1": {
+    "title": "OpenCoF: Learning to Reason Through Video Generation",
+    "date": "2026-07-11",
+    "source": "ArXiv"
   }
 }
