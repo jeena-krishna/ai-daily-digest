@@ -2648,5 +2648,55 @@
     "title": "OpenCoF: Learning to Reason Through Video Generation",
     "date": "2026-07-11",
     "source": "ArXiv"
+  },
+  "https://openai.com/index/gpt-5-6": {
+    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+    "date": "2026-07-12",
+    "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot": {
+    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+    "date": "2026-07-12",
+    "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/bio-bug-bounty": {
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "date": "2026-07-12",
+    "source": "OpenAI Blog"
+  },
+  "https://openai.com/index/chatgpt-for-your-most-ambitious-work": {
+    "title": "ChatGPT is now a partner for your most ambitious work",
+    "date": "2026-07-12",
+    "source": "OpenAI Blog"
+  },
+  "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/": {
+    "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+    "date": "2026-07-12",
+    "source": "Google AI Blog"
+  },
+  "https://www.iroh.computer/blog/mesh-llm": {
+    "title": "Mesh LLM: distributed AI computing on iroh",
+    "date": "2026-07-12",
+    "source": "Hacker News"
+  },
+  "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547": {
+    "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+    "date": "2026-07-12",
+    "source": "Hacker News"
+  },
+  "https://github.com/ninjahawk/Confessor": {
+    "title": "Show HN: Confessor – replay what private info Claude Code accessed on your PC",
+    "date": "2026-07-12",
+    "source": "Hacker News"
+  },
+  "https://www.ubergizmo.com/2026/07/can-we-see-ai-think-anthropics-claude/": {
+    "title": "Can We See AI Think? Anthropic’s New Tech Explores Claude",
+    "date": "2026-07-12",
+    "source": "Ubergizmo"
+  },
+  "http://arxiv.org/abs/2607.08724v1": {
+    "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
+    "date": "2026-07-12",
+    "source": "ArXiv"
   }
 }
