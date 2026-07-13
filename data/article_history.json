@@ -2698,5 +2698,55 @@
     "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
     "date": "2026-07-12",
     "source": "ArXiv"
+  },
+  "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6": {
+    "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+    "date": "2026-07-13",
+    "source": "Hacker News"
+  },
+  "https://systima.ai/blog/claude-code-vs-opencode-token-overhead": {
+    "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+    "date": "2026-07-13",
+    "source": "Hacker News"
+  },
+  "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/": {
+    "title": "Old and new apps, via modern coding agents",
+    "date": "2026-07-13",
+    "source": "Hacker News"
+  },
+  "https://github.com/cosmtrek/mindwalk": {
+    "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
+    "date": "2026-07-13",
+    "source": "Hacker News"
+  },
+  "https://addyosmani.com/blog/agent-harness-engineering/": {
+    "title": "Agent Harness Engineering",
+    "date": "2026-07-13",
+    "source": "Hacker News"
+  },
+  "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/": {
+    "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
+    "date": "2026-07-13",
+    "source": "Hacker News"
+  },
+  "https://nanduruganesh.github.io/flash-msa/": {
+    "title": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+    "date": "2026-07-13",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.09600v1": {
+    "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+    "date": "2026-07-13",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.09586v1": {
+    "title": "TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems",
+    "date": "2026-07-13",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.09653v1": {
+    "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+    "date": "2026-07-13",
+    "source": "ArXiv"
   }
 }
