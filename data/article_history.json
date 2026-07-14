@@ -2748,5 +2748,55 @@
     "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
     "date": "2026-07-13",
     "source": "ArXiv"
+  },
+  "https://get-inscribe.com/blog/apple-speech-api-benchmark.html": {
+    "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+    "date": "2026-07-14",
+    "source": "Hacker News"
+  },
+  "https://github.com/DaqulaLin/MemStitch": {
+    "title": "Show HN: MemStitch – Zero-copy context bridging for vLLM (25x TTFT speedup)",
+    "date": "2026-07-14",
+    "source": "Hacker News"
+  },
+  "https://github.com/clawkwork/clawk": {
+    "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+    "date": "2026-07-14",
+    "source": "Hacker News"
+  },
+  "https://github.com/jbwinters/jacquard-lang": {
+    "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+    "date": "2026-07-14",
+    "source": "Hacker News"
+  },
+  "https://arxiv.org/abs/2607.01418": {
+    "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+    "date": "2026-07-14",
+    "source": "Hacker News"
+  },
+  "https://www.techradar.com/pro/deepseek-ai-review": {
+    "title": "DeepSeek AI review",
+    "date": "2026-07-14",
+    "source": "TechRadar"
+  },
+  "http://arxiv.org/abs/2607.11883v1": {
+    "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
+    "date": "2026-07-14",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.11871v1": {
+    "title": "Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias",
+    "date": "2026-07-14",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.11818v1": {
+    "title": "MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents",
+    "date": "2026-07-14",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.11771v1": {
+    "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
+    "date": "2026-07-14",
+    "source": "ArXiv"
   }
 }
