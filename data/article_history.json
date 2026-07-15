@@ -2798,5 +2798,55 @@
     "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
     "date": "2026-07-14",
     "source": "ArXiv"
+  },
+  "https://prismml.com/news/bonsai-27b": {
+    "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+    "date": "2026-07-15",
+    "source": "Hacker News"
+  },
+  "https://www.ayush.digital/blog/the-memory-heist": {
+    "title": "I tricked Claude into leaking your deepest, darkest secrets",
+    "date": "2026-07-15",
+    "source": "Hacker News"
+  },
+  "https://github.com/juggler-ai/juggler": {
+    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+    "date": "2026-07-15",
+    "source": "Hacker News"
+  },
+  "https://martinfowler.com/articles/llm-and-dsls.html": {
+    "title": "DSLs Enable Reliable Use of LLMs",
+    "date": "2026-07-15",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.13027v1": {
+    "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+    "date": "2026-07-15",
+    "source": "ArXiv"
+  },
+  "https://github.com/soofi-project/Soofi-Pretraining": {
+    "title": "Soofi: Complete training code for an open-source foundation model",
+    "date": "2026-07-15",
+    "source": "Hacker News"
+  },
+  "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing": {
+    "title": "How to stop Claude from saying load-bearing",
+    "date": "2026-07-15",
+    "source": "Hacker News"
+  },
+  "https://arxiv.org/abs/2607.05188": {
+    "title": "Coding agents think ahead of time",
+    "date": "2026-07-15",
+    "source": "Hacker News"
+  },
+  "https://www.geeky-gadgets.com/google-deepmind-agi-to-asi/": {
+    "title": "Google DeepMind Predicts Artificial General Intelligence in a Decade",
+    "date": "2026-07-15",
+    "source": "Geeky Gadgets"
+  },
+  "http://arxiv.org/abs/2607.13034v1": {
+    "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+    "date": "2026-07-15",
+    "source": "ArXiv"
   }
 }
