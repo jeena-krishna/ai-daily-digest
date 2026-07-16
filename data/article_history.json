@@ -2848,5 +2848,55 @@
     "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
     "date": "2026-07-15",
     "source": "ArXiv"
+  },
+  "https://openai.com/index/unlocking-self-improvement-gpt-red/": {
+    "title": "GPT‑Red: Unlocking Self-Improvement for Robustness",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence": {
+    "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "https://www.freestyle.sh/blog/opinion/designing-apis-for-agents": {
+    "title": "Designing APIs for Agents",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "https://github.com/projectargus-cc/libargus.cc": {
+    "title": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf": {
+    "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.14006v1": {
+    "title": "Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation",
+    "date": "2026-07-16",
+    "source": "ArXiv"
+  },
+  "https://github.com/vshulcz/deja-vu/": {
+    "title": "Open-source memory for coding agents, synced over SSH",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "https://github.com/1ay1/agentty": {
+    "title": "Agentty – A drop-in alternative to claude-code, written in C++26. 11.0 MB binary",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "https://dl.acm.org/doi/full/10.1145/3806645.3807580": {
+    "title": "Accelerating Block Low-Rank Foundation Model Inference on MemoryConstrained GPUs",
+    "date": "2026-07-16",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.14037v1": {
+    "title": "Early Adoption of Agentic Coding Tools by GitHub Projects",
+    "date": "2026-07-16",
+    "source": "ArXiv"
   }
 }
