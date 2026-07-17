@@ -2898,5 +2898,55 @@
     "title": "Early Adoption of Agentic Coding Tools by GitHub Projects",
     "date": "2026-07-16",
     "source": "ArXiv"
+  },
+  "https://4sysops.com/archives/openai-develops-gpt-red-to-automate-ai-security-testing-and-prompt-injection-defense/": {
+    "title": "OpenAI develops GPT-Red to automate AI security testing and prompt injection defense",
+    "date": "2026-07-17",
+    "source": "4sysops.com"
+  },
+  "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/": {
+    "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
+    "date": "2026-07-17",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.15267v1": {
+    "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
+    "date": "2026-07-17",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.15218v1": {
+    "title": "When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
+    "date": "2026-07-17",
+    "source": "ArXiv"
+  },
+  "https://lmstudio.ai/blog/introducing-lm-studio-bionic": {
+    "title": "LM Studio Bionic: the AI agent for open models",
+    "date": "2026-07-17",
+    "source": "Hacker News"
+  },
+  "https://github.com/xhluca/agent-talk": {
+    "title": "Agent-talk: Enabling coding agents to work together",
+    "date": "2026-07-17",
+    "source": "Hacker News"
+  },
+  "https://coasty.ai/docs": {
+    "title": "Launch HN: Coasty (YC S26) – An API for computer-use agents",
+    "date": "2026-07-17",
+    "source": "Hacker News"
+  },
+  "https://news.ycombinator.com/item?id=48937020": {
+    "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+    "date": "2026-07-17",
+    "source": "Hacker News"
+  },
+  "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model": {
+    "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
+    "date": "2026-07-17",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.15232v1": {
+    "title": "In-Place Tokenizer Expansion for Pre-trained LLMs",
+    "date": "2026-07-17",
+    "source": "ArXiv"
   }
 }
