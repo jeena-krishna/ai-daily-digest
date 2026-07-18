@@ -2948,5 +2948,55 @@
     "title": "In-Place Tokenizer Expansion for Pre-trained LLMs",
     "date": "2026-07-17",
     "source": "ArXiv"
+  },
+  "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/": {
+    "title": "VulnHunter: Capital One's agentic AI code security tool",
+    "date": "2026-07-18",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.15257v1": {
+    "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+    "date": "2026-07-18",
+    "source": "ArXiv"
+  },
+  "https://stateofopensource.ai/": {
+    "title": "The state of open source AI",
+    "date": "2026-07-18",
+    "source": "Hacker News"
+  },
+  "https://arxiv.org/abs/2605.18991": {
+    "title": "Agent Security Is a Systems Problem",
+    "date": "2026-07-18",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.15207v1": {
+    "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+    "date": "2026-07-18",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.15265v1": {
+    "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+    "date": "2026-07-18",
+    "source": "ArXiv"
+  },
+  "https://openai.com/index/a-scorecard-for-the-ai-age": {
+    "title": "A scorecard for the AI age",
+    "date": "2026-07-18",
+    "source": "OpenAI Blog"
+  },
+  "http://arxiv.org/abs/2607.15275v1": {
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "date": "2026-07-18",
+    "source": "ArXiv"
+  },
+  "https://blog.zksecurity.xyz/posts/openvm-bugs/": {
+    "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
+    "date": "2026-07-18",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.15216v1": {
+    "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
+    "date": "2026-07-18",
+    "source": "ArXiv"
   }
 }
