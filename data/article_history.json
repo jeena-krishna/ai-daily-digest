@@ -2998,5 +2998,55 @@
     "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
     "date": "2026-07-18",
     "source": "ArXiv"
+  },
+  "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/": {
+    "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+    "date": "2026-07-19",
+    "source": "Hacker News"
+  },
+  "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/": {
+    "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+    "date": "2026-07-19",
+    "source": "Hacker News"
+  },
+  "https://github.com/openai/codex/pull/33972/files": {
+    "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+    "date": "2026-07-19",
+    "source": "Hacker News"
+  },
+  "https://www.thehindubusinessline.com/info-tech/chinas-kimi-k3-ai-surprises-us-tech-industry-rivals-chatgpt-and-claude/article71236917.ece": {
+    "title": "China’s Kimi K3 AI surprises US tech industry, rivals ChatGPT and Claude",
+    "date": "2026-07-19",
+    "source": "BusinessLine"
+  },
+  "https://openai.com/index/unlocking-self-improvement-gpt-red": {
+    "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+    "date": "2026-07-19",
+    "source": "OpenAI Blog"
+  },
+  "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel": {
+    "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+    "date": "2026-07-19",
+    "source": "Hugging Face Blog"
+  },
+  "https://huggingface.co/blog/security-incident-july-2026": {
+    "title": "Security incident disclosure — July 2026",
+    "date": "2026-07-19",
+    "source": "Hugging Face Blog"
+  },
+  "https://axi.md/": {
+    "title": "AXI – Agent EXperience Interface",
+    "date": "2026-07-19",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/cars24": {
+    "title": "How Cars24 scales conversations and builds faster with OpenAI",
+    "date": "2026-07-19",
+    "source": "OpenAI Blog"
+  },
+  "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/": {
+    "title": "Create, edit and star in videos with two Google Vids updates",
+    "date": "2026-07-19",
+    "source": "Google AI Blog"
   }
 }
