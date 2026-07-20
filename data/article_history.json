@@ -3048,5 +3048,55 @@
     "title": "Create, edit and star in videos with two Google Vids updates",
     "date": "2026-07-19",
     "source": "Google AI Blog"
+  },
+  "https://xcancel.com/__alpoge__/status/2079028340955197566": {
+    "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+    "date": "2026-07-20",
+    "source": "Hacker News"
+  },
+  "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/": {
+    "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+    "date": "2026-07-20",
+    "source": "Hacker News"
+  },
+  "https://huggingface.co/spaces/webml-community/bonsai-webgpu": {
+    "title": "1-Bit LLM in the Browser",
+    "date": "2026-07-20",
+    "source": "Hacker News"
+  },
+  "https://twitter.com/kimi_moonshot/status/2078855608565207130": {
+    "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+    "date": "2026-07-20",
+    "source": "Hacker News"
+  },
+  "https://quesma.com/blog/custom-deep-research-pipeline/": {
+    "title": "I burned all my tokens researching how to save tokens",
+    "date": "2026-07-20",
+    "source": "Quesma.com"
+  },
+  "https://cryptobriefing.com/china-ai-governance-waico-xi-jinping/": {
+    "title": "China launches global AI governance organization as Xi Jinping positions Beijing against US tech dominance",
+    "date": "2026-07-20",
+    "source": "Crypto Briefing"
+  },
+  "http://arxiv.org/abs/2607.16184v1": {
+    "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
+    "date": "2026-07-20",
+    "source": "ArXiv"
+  },
+  "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study": {
+    "title": "AI advice made people less accurate but more confident – sudy",
+    "date": "2026-07-20",
+    "source": "Hacker News"
+  },
+  "https://economictimes.indiatimes.com/news/international/canada/terrified-of-the-future-company-gives-employee-access-to-claude-ai-but-its-failed-microsoft-project-answer-leaves-them-questioning-the-ai-hype/articleshow/132491650.cms": {
+    "title": "'Terrified of the future': Company gives employee access to Claude AI, but its failed Microsoft Project answer leaves them questioning the AI hype",
+    "date": "2026-07-20",
+    "source": "The Times of India"
+  },
+  "http://arxiv.org/abs/2607.16122v1": {
+    "title": "CRAFT: Clustering Rubrics to Diagnose Weak LLM Capabilities and Generate Targeted Fine-Tuning Data",
+    "date": "2026-07-20",
+    "source": "ArXiv"
   }
 }
