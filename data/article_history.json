@@ -3148,5 +3148,55 @@
     "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
     "date": "2026-07-21",
     "source": "Hacker News"
+  },
+  "https://openai.com/index/hugging-face-model-evaluation-security-incident": {
+    "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+    "date": "2026-07-22",
+    "source": "OpenAI Blog"
+  },
+  "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63": {
+    "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+    "date": "2026-07-22",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.19338v1": {
+    "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+    "date": "2026-07-22",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.19336v1": {
+    "title": "Agents in the Wild: Where Research Meets Deployment",
+    "date": "2026-07-22",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.19317v1": {
+    "title": "CircuitKIT : Circuit Discovery, Evaluation, and Application Toolkit for Mechanistic Interpretability",
+    "date": "2026-07-22",
+    "source": "ArXiv"
+  },
+  "https://omp.sh/": {
+    "title": "Oh-my-pi: A coding agent with the IDE wired in",
+    "date": "2026-07-22",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.19345v1": {
+    "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+    "date": "2026-07-22",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.19344v1": {
+    "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+    "date": "2026-07-22",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.19321v1": {
+    "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D",
+    "date": "2026-07-22",
+    "source": "ArXiv"
+  },
+  "http://arxiv.org/abs/2607.19297v1": {
+    "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+    "date": "2026-07-22",
+    "source": "ArXiv"
   }
 }
