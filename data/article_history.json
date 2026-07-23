@@ -3198,5 +3198,55 @@
     "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
     "date": "2026-07-22",
     "source": "ArXiv"
+  },
+  "https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model": {
+    "title": "Hugging Face ‘hacker’ was rogue OpenAI model",
+    "date": "2026-07-23",
+    "source": "ComputerWeekly.com"
+  },
+  "https://petals.dev/": {
+    "title": "Petals: Run LLMs at home, BitTorrent-style",
+    "date": "2026-07-23",
+    "source": "Hacker News"
+  },
+  "https://thenextweb.com/news/university-tennessee-sues-anthropic-neural-network-patents/": {
+    "title": "University of Tennessee sues Anthropic over neural network patents",
+    "date": "2026-07-23",
+    "source": "The Next Web"
+  },
+  "https://www.forbes.com/sites/lanceeliot/2026/07/22/ai-sneaks-its-personal-values-into-everyday-answers-and-puts-its-thumb-on-the-impartiality-scale/": {
+    "title": "AI Sneaks Its ‘Personal Values’ Into Everyday Answers And Puts Its Thumb On The Impartiality Scale",
+    "date": "2026-07-23",
+    "source": "Forbes"
+  },
+  "https://ads.openai.com/": {
+    "title": "Advertise in ChatGPT",
+    "date": "2026-07-23",
+    "source": "Hacker News"
+  },
+  "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/": {
+    "title": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+    "date": "2026-07-23",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.20402v1": {
+    "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
+    "date": "2026-07-23",
+    "source": "ArXiv"
+  },
+  "https://deepsql.ai/": {
+    "title": "Show HN: DeepSQL – A self-hostable DBA agent for Postgres and MySQL",
+    "date": "2026-07-23",
+    "source": "Hacker News"
+  },
+  "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html": {
+    "title": "Protecting our FLOSS commons from LLMs",
+    "date": "2026-07-23",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.20379v1": {
+    "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+    "date": "2026-07-23",
+    "source": "ArXiv"
   }
 }
