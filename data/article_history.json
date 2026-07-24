@@ -3248,5 +3248,55 @@
     "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
     "date": "2026-07-23",
     "source": "ArXiv"
+  },
+  "https://securityaffairs.com/195869/security/google-released-gemini-3-5-flash-cyber-ai-a-specialized-ai-model-for-vulnerability-hunting.html": {
+    "title": "Google Released Gemini 3.5 Flash Cyber AI, a Specialized AI Model for Vulnerability Hunting",
+    "date": "2026-07-24",
+    "source": "Securityaffairs.com"
+  },
+  "https://openai.com/index/hugging-face-model-evaluation-security-incident/": {
+    "title": "OpenAI and Hugging Face address security incident during model evaluation",
+    "date": "2026-07-24",
+    "source": "Hacker News"
+  },
+  "https://platform.claude.com/cookbook/": {
+    "title": "Claude Cookbook",
+    "date": "2026-07-24",
+    "source": "Hacker News"
+  },
+  "https://openai.com/index/health-in-chatgpt/": {
+    "title": "Launching Health in ChatGPT to US Users",
+    "date": "2026-07-24",
+    "source": "Hacker News"
+  },
+  "https://github.com/onecli/onecli": {
+    "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+    "date": "2026-07-24",
+    "source": "Hacker News"
+  },
+  "https://news.ycombinator.com/item?id=49024620": {
+    "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+    "date": "2026-07-24",
+    "source": "Hacker News"
+  },
+  "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md": {
+    "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+    "date": "2026-07-24",
+    "source": "Hacker News"
+  },
+  "http://arxiv.org/abs/2607.21557v1": {
+    "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+    "date": "2026-07-24",
+    "source": "ArXiv"
+  },
+  "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16": {
+    "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+    "date": "2026-07-24",
+    "source": "Hacker News"
+  },
+  "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities": {
+    "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
+    "date": "2026-07-24",
+    "source": "Hacker News"
   }
 }
